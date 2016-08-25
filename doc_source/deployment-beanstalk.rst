@@ -34,14 +34,12 @@ For more information about |EB|, go to the :eb-dg:`Elastic Beanstalk documentati
     :titlesonly:
     :maxdepth: 1
 
-    deployment-beanstalk-traditional
-    deployment-beanstalk-netcore
-    deployment-beanstalk-specify-credentials
-    deployment-beanstalk-republish
-    deployment-beanstalk-custom
-    deployment-beanstalk-custom-netcore
-    deployment-beanstalk-multiple-application
-    deployment-beanstalk-legacy
+    Deploy an ASP.NET App (Traditional) <deployment-beanstalk-traditional>
+    Deploy an ASP.NET App (.NET Core) <deployment-beanstalk-netcore>
+    Specify AWS Credentials <deployment-beanstalk-specify-credentials>
+    Republish to Elastic Beanstalk <deployment-beanstalk-republish>
+    Custom Deployments (Traditional) <deployment-beanstalk-custom>
+    Custom Deployments (.NET Core) <deployment-beanstalk-custom-netcore>
+    Multiple Application Support <deployment-beanstalk-multiple-application>
+    Publish to AWS Wizard (Legacy) deployment-beanstalk-legacy
     deployment-cloudform
-
-

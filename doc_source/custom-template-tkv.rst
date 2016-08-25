@@ -31,88 +31,63 @@ To create your own custom template
 
    .. note:: Templates are available only for the regions listed below.
 
-|region-us-east-1|
-------------------
+   |region-us-east-1|
 
-.. list-table: 
-   :header-rows: 1
-   :widths: 2 2
+   .. list-table:: 
+   
+      * - `SingleInstance.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance.template>`_ 
+        - `LoadBalanced.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced.template>`_ 
 
-   * - `SingleInstance.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance.template>`_ 
-     - `LoadBalanced.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced.template>`_ 
+   |region-us-west-2|
+   
+   .. list-table:: 
+   
+      * - `SingleInstance-us-west-2.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-us-west-2.template>`_ 
+        - `LoadBalanced-us-west-2.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-us-west-2.template>`_ 
+   
+   |region-us-west-1| 
+   
+   .. list-table:: 
+   
+      * - `SingleInstance-us-west-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-us-west-1.template>`_ 
+        - `LoadBalanced-us-west-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-us-west-1.template>`_ 
+   
+   |region-eu-west-1| 
+   
+   .. list-table:: 
+   
+      * - `SingleInstance-eu-west-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-eu-west-1.template>`_ 
+        - `LoadBalanced-eu-west-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-eu-west-1.template>`_ 
+   
+   |region-ap-southeast-1|
+   
+   .. list-table:: 
+   
+      * - `SingleInstance-ap-southeast-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-ap-southeast-1.template>`_ 
+        - `LoadBalanced-ap-southeast-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-ap-southeast-1.template>`_ 
+   
+   |region-ap-northeast-1|
+   
+   .. list-table:: 
+   
+      * - `SingleInstance-ap-northeast-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-ap-northeast-1.template>`_ 
+        - `LoadBalanced-ap-northeast-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-ap-northeast-1.template>`_ 
+   
+   |region-ap-southeast-2|
+   
+   .. list-table:: 
+   
+      * - `SingleInstance-ap-southeast-2.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-ap-southeast-2.template>`_ 
+        - `LoadBalanced-ap-southeast-2.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-ap-southeast-2.template>`_ 
+   
+   |region-sa-east-1|
+   
+   .. list-table:: 
+     
+      * - `SingleInstance-sa-east-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-sa-east-1.template>`_ 
+        - `LoadBalanced-sa-east-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-sa-east-1.template>`_ 
 
-|region-us-west-2|
-------------------
-
-.. list-table: 
-   :header-rows: 1
-   :widths: 2 2
-
-   * - `SingleInstance-us-west-2.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-us-west-2.template>`_ 
-     - `LoadBalanced-us-west-2.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-us-west-2.template>`_ 
-
-|region-us-west-1|
-------------------
-
-.. list-table: 
-   :header-rows: 1
-   :widths: 2 2
-
-   * - `SingleInstance-us-west-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-us-west-1.template>`_ 
-     - `LoadBalanced-us-west-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-us-west-1.template>`_ 
-
-
-|region-eu-west-1|
-------------------
-
-.. list-table: 
-   :header-rows: 1
-   :widths: 2 2
-
-   * - `SingleInstance-eu-west-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-eu-west-1.template>`_ 
-     - `LoadBalanced-eu-west-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-eu-west-1.template>`_ 
-
-
-|region-ap-southeast-1|
------------------------
-
-.. list-table: 
-   :header-rows: 1
-   :widths: 2 2
-
-   * - `SingleInstance-ap-southeast-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-ap-southeast-1.template>`_ 
-     - `LoadBalanced-ap-southeast-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-ap-southeast-1.template>`_ 
-
-|region-ap-northeast-1|
------------------------
-
-.. list-table: 
-   :header-rows: 1
-   :widths: 2 2
-
-   * - `SingleInstance-ap-northeast-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-ap-northeast-1.template>`_ 
-     - `LoadBalanced-ap-northeast-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-ap-northeast-1.template>`_ 
-
-|region-ap-southeast-2|
------------------------
-
-.. list-table: 
-   :header-rows: 1
-   :widths: 2 2
-
-   * - `SingleInstance-ap-southeast-2.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-ap-southeast-2.template>`_ 
-     - `LoadBalanced-ap-southeast-2.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-ap-southeast-2.template>`_ 
-
-|region-sa-east-1|
-------------------
-
-.. list-table: 
-   :header-rows: 1
-   :widths: 2 2
-  
-   * - `SingleInstance-sa-east-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-sa-east-1.template>`_ 
-     - `LoadBalanced-sa-east-1.template <http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/LoadBalanced-sa-east-1.template>`_ 
-
+        
 If you need to create your own links to the templates, the format for each link is as follows:
 
 .. code-block:: none
@@ -125,7 +100,7 @@ For example, for the single instance template for the |region-us-west-1| region,
 
    http://vstoolkit.amazonwebservices.com/CloudFormationTemplates/SingleInstance-us-west-1.template
 
-The links in the table show the HTTP protocol. However, the HTTPS protocol is also supported.
+The links in the table show the HTTP protocol. The HTTPS protocol is also supported.
 
 2. Edit the template to modify it for your specific needs. The templates are text files, so you can
    edit them with any standard text editor. The deployment information in the templates is
@@ -164,15 +139,15 @@ The deployment process requires that certain data be specified in the template f
 your version of the template, you must ensure that it continues to provide this data. The required
 data is located only in the :code:`Parameters` and :code:`Outputs` sections of the template.
 
-The following table shows the required parameters in the :cf-dg:`Parameters <parameters-section-structure>` 
-section of the template.
-
 
 Parameters Section of Template
 ==============================
-.. list-table: 
-    :header-rows: 1
-    :widths: 2 3
+
+The following table shows the required parameters in the :cf-dg:`Parameters <parameters-section-structure>` 
+section of the template.
+
+.. list-table:: 
+    :header-rows: 1 
 
     * -  Name 
       -  Meaning 
@@ -207,16 +182,15 @@ Parameters Section of Template
     * - UserData 
       - The user data that the deployment provides to the deployed application. 
 
-The following table shows the required outputs in the :cf-dg:`Outputs <outputs-section-structure>` 
-section of the template.
-
 
 Outputs Section of Template
 ===========================
 
-.. list-table: 
+The following table shows the required outputs in the :cf-dg:`Outputs <outputs-section-structure>` 
+section of the template.
+
+.. list-table:: 
     :header-rows: 1
-    :widths: 2 3
 
     * - Name 
       - Meaning 

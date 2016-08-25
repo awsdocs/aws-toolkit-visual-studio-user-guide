@@ -24,7 +24,7 @@ The |TVS| supports application deployment to |AEBlong| containers or |CFN| stack
 .. note:: If you are using Visual Studio Express Edition:
 
     * You can use the :ref:`standalone deployment tool <tkv-deployment-tool>` to deploy applications 
-      to |EB| containers or |CFN| stacks.
+      to |EB| containers.
 
     * You can use the :eb-dg:`AWS Management Console <using-features.deployment.newapp>` to deploy
       applications to |EB| containers.

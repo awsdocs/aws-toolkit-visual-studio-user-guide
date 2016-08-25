@@ -10,18 +10,15 @@
 
 .. _tkv-deployment-tool:
 
-###################################
-Standalone Deployment Tool (Legacy)
-###################################
+##########################
+Standalone Deployment Tool
+##########################
 
-.. note:: The information in this topic refers to the :guilabel:`Publish to Amazon Web Services` wizard, 
-   which has been replaced by deploying through |EB| through the use of the :guilabel:`Publish to 
-   Elastic Beanstalk` wizard. The following information is provided for those who prefer to, or
-   must, use the legacy wizard to deploy through |CFN|.
- 
+.. note:: Standalone Deployment Tool options related to |CFN| deployments and incremental 
+   deployments to |EB| are obsolete in the current version and should not be used.
+
    For information about using the preferred :guilabel:`Publish to Elastic Beanstalk` wizard, see
    :ref:`tkv-deploy-beanstalk`.
-
 
 .. contents:: **Topics**
     :local:
@@ -29,11 +26,11 @@ Standalone Deployment Tool (Legacy)
 
 The |TVS| includes a command line tool that provides the same functionality as the deployment
 wizard. You can use the standalone deployment tool in your build pipeline or in other scripts to
-automate deployments to |CFN| or |EB|.
+automate deployments to |EB|.
 
 The deployment tool supports both initial deployments and redeployments. If you used the deployment
 tool to deploy your application, you can use the deployment wizard in Visual Studio to redeploy it,
-and vice versa. .
+and vice versa.
 
 The deployment tool consumes a configuration file that specifies parameter values for the
 deployment. If you used the deployment wizard in Visual Studio to deploy your application, you can
@@ -45,15 +42,15 @@ generate a configuration file either from AWS Explorer or the last step in the w
 .. figure:: images/deploy-save-config-tkv.png
    :scale: 85
 
-To use the deployment tool to deploy your web application, package the application in a .zip file.
+To to deploy your web application with the deployment tool, package the application in a .zip file.
 For more information about how to package your application for deployment, go to `How to: Create a
 Web Deployment Package in Visual Studio <http://msdn.microsoft.com/en-us/library/dd465323.aspx>`_ on
 MSDN.
 
 .. _tkv-install-and-invoke:
 
-Installation and Invocation
-===========================
+Deployment Tool Installation and Invocation
+===========================================
 
 The deployment tool is typically installed in the following directory:
 
@@ -111,6 +108,7 @@ The following table shows the available command line options.
      
     * - /u, /updateStack, -u, -updateStack 
       - Update the |CFN| configuration for an existing deployment. Do not redeploy the application. 
+        ** (Obsolete. Do not use.) **
      
     * - /w, /wait, -w, -wait 
       - Block until deployment is complete. This option is useful for scripts that need to take some 
@@ -147,20 +145,22 @@ The deployment tool uses the following exit codes.
     * - 3 
       - Failed deployment 
 
+
 If the deployment is successful, the deployment tool will output the URL for the deployed
 application.
 
-Configuration File
-------------------
+Configuration File Samples
+--------------------------
 
 You use a configuration file to specify the action of the deployment tool. The |TVS| includes three
 sample configuration files:
 
-* |CFN| single instance deployment
+* |EB| deployment
+
+* |CFN| single instance deployment 
 
 * |CFN| load-balanced deployment
 
-* |EB| deployment
 
 Sample Web App
 --------------
@@ -195,10 +195,162 @@ The configuration files provide the same information you would specify in the de
 formatting of the configuration files divides the configuration into sections that correspond to the
 pages in the deployment wizard.
 
+.. _aws-aeb-deployment-configuration-file:
+
+|EB| Deployment Configuration File
+-----------------------------------
+
+The following configuration parameters are for deployments using |EB|.
+
+For a walkthrough of the use of the standalone deployment tool to deploy to |EB|, go to the
+:eb-dg:`Developer Guide <deploy_NET_standalone_tool>`.
+
+General Settings
+~~~~~~~~~~~~~~~~
+
+.. code-block:: none
+
+    /Daws:autoscaling:launchconfiguration.SecurityGroups=RDPOnly,HTTPOnly
+
+.. list-table::
+    :header-rows: 1
+    :widths: 25 30
+
+    * - Key and Value
+      - Description
+
+    * - DeploymentPackage = archive.zip 
+      - Relative path to the web deployment archive. This path is relative to your working directory 
+        (that is, the directory from which you invoke the deployment tool). 
+
+    * - IncrementalPushLocation 
+      - (Obsolete: Do not use) If specified, incremental deployment is enabled. The value specifies 
+        a location (for example, :file:`C:\\Temp\\VS2008App1`) where a Git repository will be 
+        created to store the versioned contents of the deployment package. 
+
+    * - Template = ElasticBeanstalk 
+      - Can be :code:`Elastic Beanstalk` or :code:`ElasticBeanstalk`. 
+
+    * - Application.Name 
+      - Specifies a name for the application. This value is required. 
+
+    * - Application.Description 
+      - Specifies an optional description for the application. 
+
+    * - Application.Version 
+      - Specifies a version string for the application. If you are using incremental deployment, 
+        this value is ignored. |EB| uses the Git commit ID for the version string. 
+
+    * - Region = us-east-1 
+      - Target |regions-and-endpoints|_.   
+
+    * - UploadBucket = awsdeployment-us-east-1-samples 
+      - |S3| bucket where the deployment materials will be stored. If this bucket doesn't exist, it 
+        will be created. If you use the deployment wizard, it generates the bucket name for you. 
+
+    * - KeyPair = default 
+      - |EC2| key pair for signing in to the instance. The key pair must exist before deployment. 
+        (The deployment wizard allows you to create the key pair during deployment.) 
+
+    * - AWSAccessKey = DEPLOYMENT_CREDENTIALS_HERE 
+        
+        AWSSecretKey = DEPLOYMENT_CREDENTIALS_HERE 
+      - AWS access key and secret key used to create the stack and deploy the application to |EB|. 
+        We do not recommend using these parameters to specify credentials. Instead, create a profile 
+        for the credentials and use :code:`AWSProfileName` to reference the profile. For more 
+        information, see :ref:`creds`. 
+
+    * - AWSProfileName = {profile_name} 
+      - The profile used to create the stack and deploy the application to |EB|. 
+
+    * - aws:autoscaling:launchconfiguration.SecurityGroups = default 
+      - The names of the security groups for the |EC2| instance. If you specify multiple security 
+        groups, separate them with commas. 
+        
+        :code:`/Daws:autoscaling:launchconfiguration.SecurityGroups=RDPOnly,HTTPOnly` 
+        
+        The security groups must already exist and must allow ingress on port 80 (HTTP). For 
+        information about how to create security groups, see :ref:`tkv-sg` 
+
+Environment Settings
+~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+    :header-rows: 1
+    :widths: 2 3
+
+    * - Key and Value
+      - Description
+
+    * - Environment.Name 
+      - Specifies a name for your |EB| environment. This value is required. 
+
+    * - Environment.Description 
+      - Optional. Specifies a description for your environment. 
+
+    * - Environment.CNAME 
+      - Optional. Specifies the URL prefix for your application. If you do not specify this value, 
+        |EB| will derive the prefix from your environment name. 
+
+Container Settings
+~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+    :header-rows: 1
+    :widths: 2 3
+
+    * - Key and Value
+      - Description
+
+    * - Container.TargetRuntime = 4.0 
+      - Specifies the target runtime for the .NET Framework. Possible values are 2.0 or 4.0. The 
+        following .NET Framework versions are mapped to a target runtime of 2.0: 
+        
+         * .NET Framework 2.0 
+         * .NET Framework 3.0 
+         * .NET Framework 3.5 
+         
+        The following .NET Framework versions are mapped to a target runtime of 4.0: 
+        
+         * .NET Framework 4.0 
+         * .NET Framework 4.5 
+         
+        The :ref:`deployment wizard <tkv-deploy-beanstalk>` in the |TVS| allows you to specify the 
+        .NET Framework version. The wizard then maps the .NET Framework version to the appropriate 
+        target runtime version. 
+
+    * - Container.Enable32BitApplications = false 
+      - If the application is 32-bit, specify :code:`true`. If the application is 64-bit, specify 
+        :code:`false`. 
+
+    * - Container.ApplicationHealthcheckPath = / 
+      - This URL is relative to the root server URL. For example, if the full URL is 
+        :code:`example.com/site-is-up.html`, you would type :code:`/site-is-up.html`. The setting 
+        applies only when you use the load balanced template. It is ignored when you use the single 
+        instance template. The responsiveness of the application at this URL affects into the actions 
+        taken by the load balancer and auto scaler. If the application is unresponsive or responds 
+        slowly, the load balancer will direct incoming network traffic to other |EC2| instances, 
+        and the auto scaler may add additional |EC2| instances. 
+
+    * - Container.InstanceType = t1.micro 
+      - The `type of Amazon EC2 instance <http://aws.amazon.com/ec2/instance-types/>`_ to use. 
+        The Micro instance shown here is the |ec2-pricing|_ type of instance.  
+
+    * - Container.AmiID 
+      - Specifies a custom Amazon Machine Image (AMI). For more information about how to create a 
+        custom AMI, go to :eb-dg:`Using Custom AMIs <using-features.customami>` in the 
+        |EB-dg|_ and :ref:`tkv-create-ami-from-instance`. 
+
+    * - Container.NotificationEmail 
+      - Optional. Specifies an email address for deployment status notifications. 
+
+
 .. _amazon-cloudformation-deployment-configuration-file:
 
 |CFN| Deployment Configuration File
 -----------------------------------
+
+.. note:: Deployments to |CFN| using the Standalone Deployment Tool are deprecated. 
 
 The following configuration parameters are taken from the load balanced template.
 
@@ -296,15 +448,6 @@ Container Settings
 
     SolutionStack="64bit Windows Server 2012 running IIS 8"
 
-* .NET Framework 2.0
-
-* .NET Framework 3.0
-
-* .NET Framework 3.5
-
-* .NET Framework 4.0
-
-* .NET Framework 4.5
 
 .. list-table::
     :header-rows: 1
@@ -367,170 +510,6 @@ Stack Creation Settings
     * - Settings.RollbackOnFailure = false 
       - If this value is :code:`true`, the deployment tool tears down the stack if the deployment 
         fails. 
-
-
-.. _aws-aeb-deployment-configuration-file:
-
-|EB| Deployment Configuration File
------------------------------------
-
-The following configuration parameters are for deployments using |EB|.
-
-For a walkthrough of the use of the standalone deployment tool to deploy to |EB|, go to the
-:eb-dg:`Developer Guide <deploy_NET_standalone_tool>`.
-
-General Settings
-~~~~~~~~~~~~~~~~
-
-.. code-block:: none
-
-    /Daws:autoscaling:launchconfiguration.SecurityGroups=RDPOnly,HTTPOnly
-
-.. list-table::
-    :header-rows: 1
-    :widths: 25 30
-
-    * - Key and Value
-      - Description
-
-    * - DeploymentPackage = archive.zip 
-      - Relative path to the web deployment archive. This path is relative to your working directory 
-        (that is, the directory from which you invoke the deployment tool). If you are using 
-        incremental deployment, this value specifies the root folder for the extracted web deployment 
-        archive. 
-
-    * - IncrementalPushLocation 
-      - If specified, incremental deployment is enabled. The value specifies a location (for example, 
-        :file:`C:\Temp\VS2008App1`) where a Git repository will be created to store the versioned 
-        contents of the deployment package. 
-
-    * - Template = ElasticBeanstalk 
-      - Can be :code:`Elastic Beanstalk` or :code:`ElasticBeanstalk`. 
-
-    * - Application.Name 
-      - Specifies a name for the application. This value is required. 
-
-    * - Application.Description 
-      - Specifies an optional description for the application. 
-
-    * - Application.Version 
-      - Specifies a version string for the application. If you are using incremental deployment, 
-        this value is ignored. |EB| uses the Git commit ID for the version string. 
-
-    * - Region = us-east-1 
-      - Target |regions-and-endpoints|_. 
-
-    * - UploadBucket = awsdeployment-us-east-1-samples 
-      - |S3| bucket where the deployment materials will be stored. If this bucket doesn't exist, it 
-        will be created. If you use the deployment wizard, it generates the bucket name for you. 
-
-    * - KeyPair = default 
-      - |EC2| key pair for signing in to the instance. The key pair must exist before deployment. 
-        (The deployment wizard allows you to create the key pair during deployment.) 
-
-    * - AWSAccessKey = DEPLOYMENT_CREDENTIALS_HERE 
-        
-        AWSSecretKey = DEPLOYMENT_CREDENTIALS_HERE 
-      - AWS access key and secret key used to create the stack and deploy the application to |EB|. 
-        We do not recommend using these parameters to specify credentials. Instead, create a profile 
-        for the credentials and use :code:`AWSProfileName` to reference the profile. For more 
-        information, see :ref:`creds`. 
-
-    * - AWSProfileName = {profile_name} 
-      - The profile used to create the stack and deploy the application to |EB|. 
-
-    * - aws:autoscaling:launchconfiguration.SecurityGroups = default 
-      - The names of the security groups for the |EC2| instance. If you specify multiple security 
-        groups, separate them with commas. 
-        
-        :code:`/Daws:autoscaling:launchconfiguration.SecurityGroups=RDPOnly,HTTPOnly` 
-        
-        The security groups must already exist and must allow ingress on port 80 (HTTP). For 
-        information about how to create security groups, see :ref:`tkv-sg` 
-
-Environment Settings
-~~~~~~~~~~~~~~~~~~~~
-
-.. list-table::
-    :header-rows: 1
-    :widths: 2 3
-
-    * - Key and Value
-      - Description
-
-    * - Environment.Name 
-      - Specifies a name for your |EB| environment. This value is required. 
-
-    * - Environment.Description 
-      - Optional. Specifies a description for your environment. 
-
-    * - Environment.CNAME 
-      - Optional. Specifies the URL prefix for your application. If you do not specify this value, 
-        |EB| will derive the prefix from your environment name. 
-
-Container Settings
-~~~~~~~~~~~~~~~~~~
-
-* .NET Framework 2.0
-
-* .NET Framework 3.0
-
-* .NET Framework 3.5
-
-* .NET Framework 4.0
-
-* .NET Framework 4.5
-
-.. list-table::
-    :header-rows: 1
-    :widths: 2 3
-
-    * - Key and Value
-      - Description
-
-    * - Container.TargetRuntime = 4.0 
-      - Specifies the target runtime for the .NET Framework. Possible values are 2.0 or 4.0. The 
-        following .NET Framework versions are mapped to a target runtime of 2.0: 
-        
-         * .NET Framework 2.0 
-         * .NET Framework 3.0 
-         * .NET Framework 3.5 
-         
-        The following .NET Framework versions are mapped to a target runtime of 4.0: 
-        
-         * .NET Framework 4.0 
-         * .NET Framework 4.5 
-         
-        The :ref:`deployment wizard <tkv-deploy-beanstalk>` in the |TVS| allows you to specify the 
-        .NET Framework version. The wizard then maps the .NET Framework version to the appropriate 
-        target runtime version. 
-
-    * - Container.Enable32BitApplications = false 
-      - If the application is 32-bit, specify :code:`true`. If the application is 64-bit, specify 
-        :code:`false`. 
-
-    * - Container.ApplicationHealthcheckPath = / 
-      - This URL is relative to the root server URL. For example, if the full URL is 
-        :code:`example.com/site-is-up.html`, you would type :code:`/site-is-up.html`. The setting 
-        applies only when you use the load balanced template. It is ignored when you use the single 
-        instance template. The responsiveness of the application at this URL affects into the actions 
-        taken by the load balancer and auto scaler. If the application is unresponsive or responds 
-        slowly, the load balancer will direct incoming network traffic to other |EC2| instances, 
-        and the auto scaler may add additional |EC2| instances. 
-
-    * - Container.InstanceType = t1.micro 
-      - The `type of Amazon EC2 instance <http://aws.amazon.com/ec2/instance-types/>`_ to use. 
-        The Micro instance shown here is the |ec2-pricing|_ type of instance. 
-
-    * - Container.AmiID 
-      - Specifies a custom Amazon Machine Image (AMI). For more information about how to create a 
-        custom AMI, go to :eb-dg:`Using Custom AMIs <using-features.customami>` in the 
-        |EB-dg|_ and :ref:`tkv-create-ami-from-instance`. 
-
-    * - Container.NotificationEmail 
-      - Optional. Specifies an email address for deployment status notifications. 
-
-
 
 .. _update-the-configuration-for-an-existing-deployment:
 

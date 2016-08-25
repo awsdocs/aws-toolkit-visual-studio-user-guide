@@ -53,16 +53,16 @@ Installation
 The |TVS| is part of the |TFW|. If you have Visual Studio 2010 or later, install the |TFW| as
 follows:
 
-**To install the |TFW| **
+**To install the |TFW|**
 
 1. Go to `Toolkit for Visual Studio <http://aws.amazon.com/visualstudio>`_.
 
-2. In the :guilabel:`Download` section, choose :guilabel:|TVS| to download the installer.
+2. In the :guilabel:`Download` section, choose **|TVS|** to download the installer.
 
 3. To start the installation, run the downloaded installer and follow the instructions.
 
-  .. tip:: By default, the |TFW| are installed in the *Program Files* directory, which requires 
-     administrator privileges. To install the |TFW| as a non-administrator, specify a different 
+  .. tip:: By default, the |TVS| is installed in the *Program Files* directory, which requires 
+     administrator privileges. To install the |TVS| as a non-administrator, specify a different 
      installation directory.
 
   .. note:: You can install the |TVS| for Visual Studio 2008 from
@@ -78,9 +78,9 @@ Before you can use the |TVS|, you must provide one or more sets of valid AWS cre
 credentials allow you to access your AWS resources through the |TVS|. They are also used to sign
 programmatic web services requests, so AWS can verify the request comes from an authorized source.
 
-.. important:: AWS credentials consist of an access key and a secret key. We recommend that you do not use your
-   account's root credentials. Instead, create one or more |IAM| users, and then use those
-   credentials. For more information, see :aws-blogs-net:`Using IAM Users 
+.. important:: AWS credentials consist of an access key and a secret key. We recommend that you do 
+   not use your account's root credentials. Instead, create one or more |IAM| users, and then use 
+   those credentials. For more information, see :aws-blogs-net:`Using IAM Users 
    <Tx2O8RZZ1RLE898/Using-IAM-Users-Access-Key-Management-for-NET-Applications-Part-2>`
    and :aws-gr:`Best Practices for Managing AWS Access Keys <aws-access-keys-best-practices>`.
 
@@ -121,15 +121,14 @@ use the |TVS|, you must add at least one profile to the SDK Store.
 
    * :guilabel:`Standard AWS Account`
    
-     * If you choose :guilabel:`|GOVCLOUD-US| Account`, AWS Explorer displays only the 
-       `|GOVCLOUD-US| <http://aws.amazon.com/govcloud-us/>`_ region.
+     * If you choose **|GOVCLOUD-US| Account**, AWS Explorer displays only the 
+       |GOVCLOUD-US|_ region.
 
      * If you choose :guilabel:`Amazon AWS Account – China (Beijing) Region`, AWS Explorer 
-       displays only the China (Beijing) region.
-
+       displays only the |cnnorth1-name|.
        
        .. figure:: images/tkv-account-add.png
-          :scale: 75
+          :scale: 100
 
 4. To add the profile to the SDK Store, choose :guilabel:`OK`. To use a profile in your project, choose
    the profile name. |TVS| adds a reference to the profile to the project's :file:`App.config` or
@@ -155,7 +154,7 @@ creates the project files, it displays the :guilabel:`AWS Access Credentials` di
 choose a profile from the SDK Store or create one.
 
 .. figure:: images/specify_creds.png
-    :scale: 75
+    :scale: 100
 
 .. _uninstall:
 
@@ -165,7 +164,7 @@ Uninstalling
 To uninstall the |TVS|, you must uninstall the |TFW|. To uninstall the |TFW|, perform the
 following steps:
 
-**To uninstall the |TFW| **
+**To uninstall the |TFW|**
 
 1. In Control Panel, open :guilabel:`Programs and Features`.
 
@@ -175,7 +174,7 @@ following steps:
 2. Choose :guilabel:|TFW|, and then choose :guilabel:`Uninstall`.
 
    .. figure:: images/uninstall.png
-      :scale: 75
+      :scale: 100
 
 3. If prompted, choose :guilabel:`Yes`.
 
