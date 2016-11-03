@@ -15,8 +15,8 @@ Deploying a |CFN| Template in Visual Studio
 ############################################
 
 .. meta::
-   :description: Deploy a |CFN| template using the |TVS|.
-   :keywords: deployment, |CFN|, template
+   :description: Deploy a CloudFormation template using the |TVS|.
+   :keywords: deployment, CloudFormation, template
 
 **To deploy an CFN template**
 

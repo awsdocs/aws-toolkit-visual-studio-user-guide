@@ -15,10 +15,11 @@ Creating a |CFN| Template Project in Visual Studio
 ###################################################
 
 .. meta::
-   :description: Create a |CFN| template project using the |TVS|.
-   :keywords: template project, |CFN|
+   :description: Create a CloudFormation template project using the Tookit for Visual Studio.
+   :keywords: template project, CloudFormation
 
-** To create a template project **
+
+**To create a template project**
 
 1. In Visual Studio, choose :guilabel:`File`, choose :guilabel:`New`, and then choose
    :guilabel:`Project`.

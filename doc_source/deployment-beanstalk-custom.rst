@@ -15,8 +15,8 @@ Custom Elastic Beanstalk Application Deployments
 ################################################
 
 .. meta::
-   :description: Custom deployments of traditional ASP.NET apps to |EB| using the |TVS|.
-   :keywords: custom deployment, |EB|
+   :description: Custom deployments of traditional ASP.NET apps to Elastic Beanstalk.
+   :keywords: custom deployment, Elastic Beanstalk
 
 This topic describes how the deployment manifest for |EB|'s Microsoft Windows container 
 supports custom application deployments.

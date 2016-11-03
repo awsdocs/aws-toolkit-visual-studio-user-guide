@@ -15,8 +15,8 @@ Using |DDB| from AWS Explorer
 #############################
 
 .. meta::
-   :description: Using |DDB| from AWS Explorer
-   :keywords: |DDB|, table
+   :description: Using DynamoDB from AWS Explorer
+   :keywords: DynamoDB, table
 
 
 |DDBlong| is a fast, highly scalable, highly available, cost-effective, non-relational database

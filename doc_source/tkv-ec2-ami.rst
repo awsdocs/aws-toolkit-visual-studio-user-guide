@@ -15,12 +15,9 @@ Managing Amazon EC2 Instances
 #############################
 
 .. meta::
-   :description: Managing |EC2| instances with |TVS|.
+   :description: Manage your EC2 instances with the AWS Toolkit for Visual Studio.
    :keywords: EC2, machine images, 
 
-.. contents:: **Topics**
-    :local:
-    :depth: 1
 
 AWS Explorer provides detailed views of Amazon Machine Images (AMI) and |EC2long| (|EC2|) instances.
 From these views, you can launch an |EC2| instance from an AMI, connect to that instance, and either

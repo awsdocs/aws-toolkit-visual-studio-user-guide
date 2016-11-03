@@ -15,8 +15,8 @@ Deploying an ASP.NET Core Application to |EB|
 ###############################################
 
 .. meta::
-   :description: Deploying ASP.NET Core apps to |EB| using the |TVS|.
-   :keywords: deployment, |EB|, .NET Core
+   :description: Deploying ASP.NET Core apps to Elastic Beanstalk.
+   :keywords: deployment, Elastic Beanstalk, .NET Core
 
 |AEBlong| is a service that simplifies the process of provisioning AWS resources for your
 application. |EBlong| provides all of the AWS infrastructure required to deploy your application. 

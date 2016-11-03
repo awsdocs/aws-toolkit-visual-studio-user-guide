@@ -16,7 +16,7 @@ Setting Up the |TVS|
 
 
 .. meta::
-   :description: How to set up the |TVS|.
+   :description: How to set up the AWS Toolkit for Visual Studio.
    :keywords: configuration, prerequisites, region, credentials, uninstall
 
 Follow the steps in this topic to install and configure the |TVS|.

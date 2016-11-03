@@ -15,8 +15,8 @@ Identity and Access Management
 ##############################
 
 .. meta::
-   :description: Work with |IAM| from AWS Explorer.
-   :keywords: |IAM|, IAM, security, user, group, role, policy
+   :description: Work with IAM from AWS Explorer.
+   :keywords: IAM, security, user, group, role, policy
 
 |IAMlong| (|IAM|) enables you to more securely manage access to your AWS accounts and resources.
 With IAM, you can create multiple users in your primary (*root*) AWS account. These users can have

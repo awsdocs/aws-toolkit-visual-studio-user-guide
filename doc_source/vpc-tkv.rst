@@ -15,8 +15,8 @@ Amazon Virtual Private Cloud (VPC)
 ##################################
 
 .. meta::
-   :description: Use the |TVS| to manage |VPClong|.
-   :keywords: |VPC|, subnet, elastic IP, route tables, internet gateways
+   :description: Use the Toolkit for Visual Studio to manage Amazon Virtual Private Cloud.
+   :keywords: Virtual Private Cloud, VPC, subnet, elastic IP, route tables, internet gateways
 
 |VPClong| (|VPC|) enables you to launch Amazon Web Services (AWS) resources into a virtual network
 you've defined. This virtual network resembles a traditional network that you'd operate in your own

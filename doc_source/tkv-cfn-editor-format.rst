@@ -15,8 +15,8 @@ Formatting a |CFN| Template in Visual Studio
 #############################################
 
 .. meta::
-   :description: Format a |CFN| template in the |TVS|.
-   :keywords: format, |CFN|, template
+   :description: Format a CloudFormation template.
+   :keywords: format, CloudFormation, template
 
 
 * In Solution Explorer, open the context (right-click) menu for the template and choose 

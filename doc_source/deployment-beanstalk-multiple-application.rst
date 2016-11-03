@@ -15,8 +15,8 @@ Multiple Application Support for .NET and |EB|
 ###############################################
 
 .. meta::
-   :description: Deploying multiple apps using the |TVS|.
-   :keywords: mulitple apps, deployment, |EB|
+   :description: Deploying multiple apps to Elastic Beanstalk.
+   :keywords: mulitple apps, deployment, Elastic Beanstalk
 
 Using the deployment manifest, you have the ability to deploy multiple applications to the same 
 |EB| environment. 

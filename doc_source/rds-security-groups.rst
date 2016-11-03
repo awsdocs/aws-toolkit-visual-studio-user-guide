@@ -15,8 +15,8 @@
 #####################
 
 .. meta::
-   :description: |RDS| security groups.
-   :keywords: |RDS|, security group
+   :description: Amazon RDS security groups.
+   :keywords: Amazon RDS, security group
 
 |RDS| security groups enable you to manage network access to your |RDS| instances. With security
 groups, you specify sets of IP addresses using CIDR notation, and only network traffic originating

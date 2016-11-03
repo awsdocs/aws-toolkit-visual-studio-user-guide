@@ -16,8 +16,8 @@ Deploy a Traditional ASP.NET Application to |EB|
 
 
 .. meta::
-   :description: Deploying traditional ASP.NET apps to |EB| using the |TVS|.
-   :keywords: deployment, |EB|
+   :description: Deploying traditional ASP.NET apps to Elastic Beanstalk.
+   :keywords: deployment, Elastic Beanstalk
 
 This section describes how to use the :guilabel:`Publish to Elastic Beanstalk` wizard, provided as
 part of the |TVS|, to deploy an application through |EB|. To practice, you can use an

@@ -15,8 +15,8 @@ How to Republish Your Application to an |EB| Environment
 #########################################################
 
 .. meta::
-   :description: How to republish apps to |EB| using the |TVS|.
-   :keywords: republish, |EB|
+   :description: How to republish apps to Elastic Beanstalk.
+   :keywords: republish, Elastic Beanstalk
 
 You can iterate on your application by making discrete changes and then republishing a new version
 to your already launched |EB| environment.

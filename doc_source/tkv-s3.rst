@@ -15,8 +15,8 @@ Using |S3| from AWS Explorer
 ############################
 
 .. meta::
-   :description: Using |S3| from |TVS| AWS Explorer.
-   :keywords: |S3|, files, folders
+   :description: Using S3 from AWS Explorer.
+   :keywords: S3, files, folders
 
 |S3long| (|S3|) enables you to store and retrieve data from any connection to the Internet. All data
 you store on |S3| is associated with your account and, by default, can only be accessed by you. The

@@ -16,7 +16,7 @@ Standalone Deployment Tool
 
 .. meta::
    :description: Deployment using the standalone deployment tool.
-   :keywords: standalone deployment, |EB|
+   :keywords: standalone deployment, Elastic Beanstalk, CloudFormation
 
 .. note:: Standalone Deployment Tool options related to |CFN| deployments and incremental 
    deployments to |EB| are obsolete in the current version and should not be used.
