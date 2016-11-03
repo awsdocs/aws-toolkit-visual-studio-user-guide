@@ -14,6 +14,10 @@
 Using the |TVS|
 ###################
 
+.. meta::
+   :description: Using the |TVS|.
+   :keywords: features, services, what's new
+
 .. _welcome.about_tkv:
 
 The |TVS|

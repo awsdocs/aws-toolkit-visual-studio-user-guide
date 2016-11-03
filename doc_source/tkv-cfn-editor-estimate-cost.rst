@@ -14,6 +14,10 @@
 Estimating the Cost of Your |CFN| Template Project in Visual Studio
 ###################################################################
 
+.. meta::
+   :description: Estimate cost of |CFN| templates in the |TVS|.
+   :keywords: cost, |CFN|, template
+
 With the |TVS|, you can easily estimate the cost of the |CFN| stack you are working on before
 you deploy it. This way you'll have an idea of the monthly operating costs for the resources include
 in your template.

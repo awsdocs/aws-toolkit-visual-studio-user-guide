@@ -14,6 +14,10 @@
 Using the |CFN| Template Editor for Visual Studio
 #################################################
 
+.. meta::
+   :description: |CFN| template editor for Visual Studio.
+   :keywords: custom deployment, |EB|
+
 The |TVS| includes an |CFN| template editor and |CFN| template projects for Visual Studio. The
 supported features include:
 

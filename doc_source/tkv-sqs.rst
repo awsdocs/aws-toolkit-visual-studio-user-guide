@@ -11,8 +11,12 @@
 .. _tkv-using-sqs:
 
 ##################################
-Using Amazon SQS from AWS Explorer
+Using |SQS| from AWS Explorer
 ##################################
+
+.. meta::
+   :description: Use |SQS| from AWS Explorer.
+   :keywords: |SQS|, queue
 
 |SQSlong| (|SQS|) is a flexible queue service that enables message passing between different
 processes of execution in a software application. |SQS| queues are located in the AWS

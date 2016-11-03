@@ -14,6 +14,10 @@
 Launch an |RDS| Database Instance
 #################################
 
+.. meta::
+   :description: Launch an |RDS| database instance from AWS Explorer.
+   :keywords: |RDS|, launch
+
 With AWS Explorer, you can launch an instance of any of the database engines supported by |RDS|. The
 following walkthrough shows the user experience for launching an instance of Microsoft SQL Server
 Standard Edition, but the user experience is similar for all supported engines.

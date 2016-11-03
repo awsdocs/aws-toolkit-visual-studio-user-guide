@@ -11,8 +11,13 @@
 .. _tkv-cfn-editor-format:
 
 #############################################
-Formatting an |CFN| Template in Visual Studio
+Formatting a |CFN| Template in Visual Studio
 #############################################
+
+.. meta::
+   :description: Format a |CFN| template in the |TVS|.
+   :keywords: format, |CFN|, template
+
 
 * In Solution Explorer, open the context (right-click) menu for the template and choose 
   :guilabel:`Format Template`.

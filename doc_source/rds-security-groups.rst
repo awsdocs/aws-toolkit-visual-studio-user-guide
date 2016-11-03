@@ -14,6 +14,10 @@
 |RDS| Security Groups
 #####################
 
+.. meta::
+   :description: |RDS| security groups.
+   :keywords: |RDS|, security group
+
 |RDS| security groups enable you to manage network access to your |RDS| instances. With security
 groups, you specify sets of IP addresses using CIDR notation, and only network traffic originating
 from these addresses is recognized by your |RDS| instance.

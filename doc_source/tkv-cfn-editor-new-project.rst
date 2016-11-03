@@ -11,10 +11,14 @@
 .. _tkv-cfn-editor-new-project:
 
 ###################################################
-Creating an |CFN| Template Project in Visual Studio
+Creating a |CFN| Template Project in Visual Studio
 ###################################################
 
-**To create an CFN template project**
+.. meta::
+   :description: Create a |CFN| template project using the |TVS|.
+   :keywords: template project, |CFN|
+
+** To create a template project **
 
 1. In Visual Studio, choose :guilabel:`File`, choose :guilabel:`New`, and then choose
    :guilabel:`Project`.

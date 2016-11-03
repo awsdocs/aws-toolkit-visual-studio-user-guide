@@ -14,6 +14,10 @@
 Managing Security Groups from AWS Explorer
 ##########################################
 
+.. meta::
+   :description: How to manage security groups using the |TVS|.
+   :keywords: security groups, permissions
+
 The AWS Toolkit for Visual Studio enables you to create and configure security groups to use with
 |EC2long| (|EC2|) instances and |CFN|. When you launch |EC2| instances or deploy an application to
 |CFN|, you specify a security group to associate with the |EC2| instances. (Deployment to |CFN|

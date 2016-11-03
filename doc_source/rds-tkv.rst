@@ -14,6 +14,11 @@
 |RDS| from AWS Explorer
 #######################
 
+
+.. meta::
+   :description: Use |RDS| from AWS Explorer.
+   :keywords: |RDS|, database, Oracle, SQL Server, MySQL
+
 |RDSlong| (|RDS|) is a service that enables you to provision and manage SQL relational database
 systems in the cloud. |RDS| supports three types of database systems:
 

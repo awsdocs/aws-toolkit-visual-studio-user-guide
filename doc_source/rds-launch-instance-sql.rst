@@ -14,6 +14,10 @@
 Create a Microsoft SQL Server Database in an RDS Instance
 #########################################################
 
+.. meta::
+   :description: Creae Microsoft SQL Server database in |RDS| from AWS Explorer.
+   :keywords: |RDS|, Microsoft, SQL Server, MySQL
+
 Microsoft SQL Server is designed in such a way that, after launching an |RDS| instance, you need to
 create an SQL Server database in the RDS instance.
 

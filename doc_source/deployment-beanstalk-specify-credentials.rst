@@ -14,6 +14,10 @@
 How to Specify the AWS Security Credentials for Your Application
 ################################################################
 
+.. meta::
+   :description: Specify security credentials using the |TVS|.
+   :keywords: deployment, security, credentials, |EB|
+
 The AWS account you specify in the :guilabel:`Publish to Elastic Beanstalk` wizard (or the legacy
 version of this wizard, :guilabel:`Publish to Amazon Web Services`) is the AWS account the wizard
 will use for deployment to |EB|. 

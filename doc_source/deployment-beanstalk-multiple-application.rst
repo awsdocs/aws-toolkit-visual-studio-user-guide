@@ -13,7 +13,11 @@
 ###############################################
 Multiple Application Support for .NET and |EB|
 ###############################################
- 
+
+.. meta::
+   :description: Deploying multiple apps using the |TVS|.
+   :keywords: mulitple apps, deployment, |EB|
+
 Using the deployment manifest, you have the ability to deploy multiple applications to the same 
 |EB| environment. 
 

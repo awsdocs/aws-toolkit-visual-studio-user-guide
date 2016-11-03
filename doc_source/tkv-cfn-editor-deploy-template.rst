@@ -11,8 +11,12 @@
 .. _tkv-cfn-editor-deploy-template:
 
 ############################################
-Deploying an |CFN| Template in Visual Studio
+Deploying a |CFN| Template in Visual Studio
 ############################################
+
+.. meta::
+   :description: Deploy a |CFN| template using the |TVS|.
+   :keywords: deployment, |CFN|, template
 
 **To deploy an CFN template**
 

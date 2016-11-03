@@ -14,6 +14,10 @@
 Setting Launch Permissions on an Amazon Machine Image
 #####################################################
 
+.. meta::
+   :description: How to set AMI launch permissions using the |TVS|.
+   :keywords: AMI, launch permissions
+
 You can set launch permissions on your Amazon Machine Images (AMIs) from the :guilabel:`AMIs` view
 in AWS Explorer. You can use the :guilabel:`Set AMI Permissions` dialog box to copy permissions from
 AMIs.

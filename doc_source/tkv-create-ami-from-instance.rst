@@ -14,6 +14,10 @@
 Create an AMI from an Amazon EC2 Instance
 #########################################
 
+.. meta::
+   :description: How to use the |TVS| to create an AMI from an EC2 instance.
+   :keywords: AMI
+
 From the :guilabel:`Amazon EC2 Instances` view, you can create Amazon Machine Images (AMIs) from
 either running or stopped instances.
 

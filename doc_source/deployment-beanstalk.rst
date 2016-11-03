@@ -14,6 +14,11 @@
 Deploying to |EB|
 ####################################################
 
+
+.. meta::
+   :description: Deploying to |EB| using the |TVS|.
+   :keywords: deployment, |EB|
+
 |AEBlong| is a service that simplifies the process of provisioning AWS resources for your
 application. |EB| provides all of the AWS infrastructure required to deploy your application. This
 infrastructure includes:

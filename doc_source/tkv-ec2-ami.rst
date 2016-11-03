@@ -14,6 +14,9 @@
 Managing Amazon EC2 Instances
 #############################
 
+.. meta::
+   :description: Managing |EC2| instances with |TVS|.
+   :keywords: EC2, machine images, 
 
 .. contents:: **Topics**
     :local:

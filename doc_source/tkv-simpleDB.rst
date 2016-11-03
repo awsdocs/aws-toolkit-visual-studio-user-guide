@@ -14,6 +14,10 @@
 Using |SDB| from AWS Explorer
 #############################
 
+.. meta::
+   :description: Use |SDB| from AWS Explorer.
+   :keywords: |SDB|, database, CSV
+
 AWS Explorer displays all of the |SDB| domains associated with the active AWS account. From AWS
 Explorer, you can create or delete |SDB| domains.
 

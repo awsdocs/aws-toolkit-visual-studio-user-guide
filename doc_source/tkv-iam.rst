@@ -14,6 +14,10 @@
 Identity and Access Management
 ##############################
 
+.. meta::
+   :description: Work with |IAM| from AWS Explorer.
+   :keywords: |IAM|, IAM, security, user, group, role, policy
+
 |IAMlong| (|IAM|) enables you to more securely manage access to your AWS accounts and resources.
 With IAM, you can create multiple users in your primary (*root*) AWS account. These users can have
 their own credentials: password, access key ID, and secret key, but all |IAM| users share a single
@@ -33,11 +37,6 @@ the |IAM| role with an |EC2| instance. Applications that run on the EC2 instance
 AWS using the permissions provided by the IAM role. For more information about using IAM roles with
 the Toolkit, see :ref:`create-an-iam-role-tkv`. For more information about |IAM|, go to the 
 :iam-ug:`IAM User Guide <Welcome>`.
-
-
-.. contents:: **Topics**
-    :local:
-    :depth: 1
 
 .. _tkv-create-an-iam-user:
 

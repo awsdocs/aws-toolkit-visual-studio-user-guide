@@ -14,6 +14,10 @@
 Deployment Using the AWS Toolkit
 ################################
 
+.. meta::
+   :description: Deployment using the |TVS|.
+   :keywords: deployment, |EB|, |CFN|
+
 The |TVS| supports application deployment to |AEBlong| containers or |CFN| stacks.
 
 * :ref:`tkv-deploy-beanstalk` describes how to use the Visual Studio IDE to deploy applications to |EB|.

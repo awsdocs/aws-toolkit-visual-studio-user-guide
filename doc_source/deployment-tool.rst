@@ -14,15 +14,16 @@
 Standalone Deployment Tool
 ##########################
 
+.. meta::
+   :description: Deployment using the standalone deployment tool.
+   :keywords: standalone deployment, |EB|
+
 .. note:: Standalone Deployment Tool options related to |CFN| deployments and incremental 
    deployments to |EB| are obsolete in the current version and should not be used.
 
    For information about using the preferred :guilabel:`Publish to Elastic Beanstalk` wizard, see
    :ref:`tkv-deploy-beanstalk`.
 
-.. contents:: **Topics**
-    :local:
-    :depth: 2
 
 The |TVS| includes a command line tool that provides the same functionality as the deployment
 wizard. You can use the standalone deployment tool in your build pipeline or in other scripts to

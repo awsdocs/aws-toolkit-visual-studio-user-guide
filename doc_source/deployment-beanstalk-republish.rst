@@ -14,6 +14,10 @@
 How to Republish Your Application to an |EB| Environment
 #########################################################
 
+.. meta::
+   :description: How to republish apps to |EB| using the |TVS|.
+   :keywords: republish, |EB|
+
 You can iterate on your application by making discrete changes and then republishing a new version
 to your already launched |EB| environment.
 
@@ -32,3 +36,5 @@ choose :guilabel:`Publish to AWS` (instead of :guilabel:`Republish to Environmen
 '<environment_name>'`) in step 1 and use the deployment wizard to make changes.
 
 You cannot republish if your application is in the process of launching or terminating.
+
+

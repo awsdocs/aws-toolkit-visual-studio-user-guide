@@ -14,6 +14,11 @@
 Using |DDB| from AWS Explorer
 #############################
 
+.. meta::
+   :description: Using |DDB| from AWS Explorer
+   :keywords: |DDB|, table
+
+
 |DDBlong| is a fast, highly scalable, highly available, cost-effective, non-relational database
 service. |DDB| removes traditional scalability limitations on data storage while maintaining low
 latency and predictable performance. The |TVS| provides functionality for working with |DDB| in

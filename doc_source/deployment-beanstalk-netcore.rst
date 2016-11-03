@@ -14,6 +14,10 @@
 Deploying an ASP.NET Core Application to |EB| 
 ###############################################
 
+.. meta::
+   :description: Deploying ASP.NET Core apps to |EB| using the |TVS|.
+   :keywords: deployment, |EB|, .NET Core
+
 |AEBlong| is a service that simplifies the process of provisioning AWS resources for your
 application. |EBlong| provides all of the AWS infrastructure required to deploy your application. 
 
@@ -24,10 +28,6 @@ dependency overhead and streamlines your application to run in the cloud.
 |EBlong| makes it easy to deploy applications in a variety of different languages to AWS. 
 |EB| supports both traditional ASP.NET applications and ASP.NET Core applications. This topic 
 describes deploying ASP.NET Core applications.
-
-.. contents:: **Topics**
-    :local:
-    :depth: 2
 
 .. _tkv-deploy-using-wizard-netcore:
 
@@ -68,7 +68,7 @@ haven't already created a key pair you might want to select :guilabel:`Create ne
 .. _tkv-deploy-using-wizard-netcore-permissions:
 
 Permissions
------------
+===========
 
 The **Permissions** page is used for assigning AWS credentials to the EC2 instance(s) running your 
 application. This is important if your application uses the |sdk-net| to access other AWS 
@@ -78,7 +78,7 @@ at its default.
 .. _tkv-deploy-using-wizard-netcore-app-options:
 
 Application Options
--------------------
+===================
 
 The details on the **Application Options** page are different from those specified when deploying 
 traditional ASP.NET applications. Here, you specify the build configuration and framework used to 
@@ -90,7 +90,7 @@ click :guilabel:`Deploy` to begin the deployment process.
 .. _tkv-deploy-using-wizard-netcore-check-status:
 
 Checking Environment Status
----------------------------
+===========================
 
 After the application is packaged and uploaded to AWS, you can check the status of the |EB| 
 environment by opening the environment status view from the AWS Explorer in Visual Studio.

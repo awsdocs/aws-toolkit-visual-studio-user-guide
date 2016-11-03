@@ -14,6 +14,10 @@
 Custom ASP.NET Core |EB| Deployments
 ####################################
  
+.. meta::
+   :description: Custom deployments of ASP.NET Core apps to |EB| using the |TVS|.
+   :keywords: custom deployment, .NET Core, |EB|
+
 This topic describes how deployment works and what you can do customize deployments when creating 
 ASP.NET Core applications with |EB| and the |TVS|.
 
