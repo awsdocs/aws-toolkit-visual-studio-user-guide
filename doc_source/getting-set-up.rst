@@ -53,21 +53,21 @@ Installation
 The |TVS| is part of the |TFW|. If you have Visual Studio 2010 or later, install the |TFW| as
 follows:
 
-**To install the |TFW|**
+To install the |TFW|
 
 1. Go to `Toolkit for Visual Studio <http://aws.amazon.com/visualstudio>`_.
 
-2. In the :guilabel:`Download` section, choose **|TVS|** to download the installer.
+2. In the :guilabel:`Download` section, choose |TVS| to download the installer.
 
 3. To start the installation, run the downloaded installer and follow the instructions.
 
-  .. tip:: By default, the |TVS| is installed in the *Program Files* directory, which requires 
-     administrator privileges. To install the |TVS| as a non-administrator, specify a different 
-     installation directory.
+.. tip:: By default, the |TVS| is installed in the *Program Files* directory, which requires 
+   administrator privileges. To install the |TVS| as a non-administrator, specify a different 
+   installation directory.
 
-  .. note:: You can install the |TVS| for Visual Studio 2008 from
-     http://sdk-for-net.amazonwebservices.com/latest/AWSToolkitForVisualStudio2008.msi, but this
-     version of the toolkit is no longer supported.
+.. note:: You can install the |TVS| for Visual Studio 2008 from
+   http://sdk-for-net.amazonwebservices.com/latest/AWSToolkitForVisualStudio2008.msi, but this
+   version of the toolkit is no longer supported.
 
 .. _creds:
 
@@ -121,8 +121,8 @@ use the |TVS|, you must add at least one profile to the SDK Store.
 
    * :guilabel:`Standard AWS Account`
    
-     * If you choose **|GOVCLOUD-US| Account**, AWS Explorer displays only the 
-       |GOVCLOUD-US|_ region.
+     * If you choose |GOVCLOUD-US| Account, AWS Explorer displays only the 
+       |GOVCLOUD-US| region.
 
      * If you choose :guilabel:`Amazon AWS Account – China (Beijing) Region`, AWS Explorer 
        displays only the |cnnorth1-name|.
@@ -164,7 +164,7 @@ Uninstalling
 To uninstall the |TVS|, you must uninstall the |TFW|. To uninstall the |TFW|, perform the
 following steps:
 
-**To uninstall the |TFW|**
+To uninstall the |TFW|
 
 1. In Control Panel, open :guilabel:`Programs and Features`.
 

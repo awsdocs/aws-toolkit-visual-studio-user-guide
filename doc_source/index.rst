@@ -20,19 +20,7 @@ AWS Toolkit for Visual Studio User Guide v1.30
 
     welcome
     getting-set-up
-    tkv-ec2-ami
-    tkv-sg-create
-    tkv-create-ami-from-instance
-    tkv-set-ami-launch-perms
-    vpc-tkv
-    deployment-chapt
-    tkv-cfn-editor
-    tkv-s3
-    dynamodb-tkv
-    rds-tkv
-    tkv-simpleDB
-    tkv-sqs
-    tkv-iam
+    working-with-services
     tkv-document-history
 
 

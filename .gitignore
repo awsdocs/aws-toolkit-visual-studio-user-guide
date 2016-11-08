@@ -1,1 +1,5 @@
 output/
+AwsSphinxSharedContent
+build
+.DS_Store
+
