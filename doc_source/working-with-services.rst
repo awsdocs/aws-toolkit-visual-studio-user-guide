@@ -41,3 +41,5 @@ It assumes that you've already installed the AWS Toolkit for Visual Studio on yo
     tkv-simpleDB
     tkv-sqs
     tkv-iam
+    lambda
+    lambda-cli-publish
