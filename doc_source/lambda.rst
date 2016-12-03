@@ -91,7 +91,9 @@ When your function is complete, you can publish it to |LAM|.
     * **Required:** You must provide a :guilabel:`Role Name`. Select a role associated with
       your account. You can choose either an existing role or a new role based on an AWS managed policy
       or your own managed policy. The role will be used to provide credentials for any AWS service
-      calls the code in the function makes.
+      calls the code in the function makes. Your account must have permission to run the IAM
+      ListPolicies action, or the :guilabel:`Role Name` list will be empty and you will be unable to
+      continue.
     * *Optional:* If your Lambda function accesses resources on an |VPC|, select the subnets and
       security groups.
     * *Optional:* Set any environment variables that your |LAM| function requires. The keys are
