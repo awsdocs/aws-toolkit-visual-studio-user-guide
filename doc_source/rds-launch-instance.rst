@@ -48,22 +48,22 @@ Standard Edition, but the user experience is similar for all supported engines.
    settings.
 
    *License Model*
-   
+
         .. list-table::
             :header-rows: 1
             :widths: 15 15
 
-            * * Engine Type 
-              * License 
-             
-            * * Microsoft SQL Server 
-              * license-included 
-             
-            * * MySql 
-              * general-public-license 
-             
-            * * Oracle 
-              * bring-your-own-license 
+            * * Engine Type
+              * License
+
+            * * Microsoft SQL Server
+              * license-included
+
+            * * MySql
+              * general-public-license
+
+            * * Oracle
+              * bring-your-own-license
 
         The license model varies, depending on the type of database engine. Engine Type License
         Microsoft SQL Server license-included MySql general-public-license Oracle
@@ -75,14 +75,13 @@ Standard Edition, but the user experience is similar for all supported engines.
 
    *DB Instance Class*
         Choose the instance class for the database engine. Pricing for instance classes varies. For
-        more information, see the |RDS-pricing|_ of the |RDS| detail
-        page. 
+        more information, see |RDS-pricing|_.
 
    *Perform a multi AZ deployment*
         Select this option to create a multi-AZ deployment for enhanced data durability and
         availability. |RDS| provisions and maintains a standby copy of your database in a different
         Availability Zone for automatic failover in the event of a scheduled or unplanned outage.
-        For information about pricing for multi-AZ deployments, see the pricing section of the 
+        For information about pricing for multi-AZ deployments, see the pricing section of the
         |RDS|_ detail page. This option is not supported for Microsoft SQL Server.
 
    *Upgrade minor versions automatically*
@@ -96,29 +95,29 @@ In the :guilabel:`RDS Database Instance` section, you can specify the following 
             :header-rows: 1
             :widths: 15 10 10
 
-            * * Engine 
-              * Minimum (GB) 
-              * Maximum (GB) 
-             
-            * * MySQL 
-              * 5 
-              * 1024 
-             
-            * * Oracle Enterprise Edition 
-              * 10 
-              * 1024 
-             
-            * * Microsoft SQL Server Express Edition 
-              * 30 
-              * 1024 
-             
-            * * Microsoft SQL Server Standard Edition 
-              * 250 
-              * 1024 
-             
-            * * Microsoft SQL Server Web Edition 
-              * 30 
-              * 1024 
+            * * Engine
+              * Minimum (GB)
+              * Maximum (GB)
+
+            * * MySQL
+              * 5
+              * 1024
+
+            * * Oracle Enterprise Edition
+              * 10
+              * 1024
+
+            * * Microsoft SQL Server Express Edition
+              * 30
+              * 1024
+
+            * * Microsoft SQL Server Standard Edition
+              * 250
+              * 1024
+
+            * * Microsoft SQL Server Web Edition
+              * 30
+              * 1024
 
         The minimums and maximums for allocated storage depend on the type of database engine.
         Engine Minimum (GB) Maximum (GB) MySQL 5 1024 Oracle Enterprise Edition 10 1024 Microsoft
@@ -166,7 +165,7 @@ In the :guilabel:`RDS Database Instance` section, you can specify the following 
    *DB Parameter Group*
         (Optional) From this drop-down list, choose a DB parameter group to associate with your
         instance. DB parameter groups enable you to change the default configuration for the
-        instance. For more information, go to the :rds-ug:`Amazon Relational Databse Service User Guide 
+        instance. For more information, go to the :rds-ug:`Amazon Relational Databse Service User Guide
         <USER_WorkingWithParamGroups>` and :aws-articles:`this article <2935>`.
 
    When you have specified settings on this dialog box, choose :guilabel:`Next`.
