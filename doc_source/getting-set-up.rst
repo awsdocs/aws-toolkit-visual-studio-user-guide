@@ -31,7 +31,7 @@ The |TVS| has the following prerequisites.
 * An AWS account. To get an AWS account, go to the `AWS home page <http://aws.amazon.com/>`_ and choose
   :guilabel:`Create an AWS Account`. This account will enable you to use AWS services.
 
-* Supported operating systems: Microsoft Windows 8, Windows 7, and Windows Vista.
+* Supported operating systems: Microsoft Windows 10, Windows 8, and Windows 7.
 
   We recommend that you install the latest service packs and updates for the version of Windows
   you are using.
