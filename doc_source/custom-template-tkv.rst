@@ -156,7 +156,7 @@ section of the template.
       - The "API name" for the type of the Amazon EC2 instances to use for the deployment. Examples 
         are t1.micro for Micro   instances or m1.xlarge for Extra Large instances. For a list of 
         instance types and corresponding API names, see the Amazon EC2 
-        `detail page <ec2/instance-types/>`_. 
+        `detail page <ec2-instance-types_>`_. 
       
     * - KeyPair 
       - Which of your key pairs to use for the Amazon EC2 instances. 

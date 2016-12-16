@@ -49,7 +49,7 @@ You can use the |TVS| to create a |DDB| table.
    :guilabel:`Hash Key Type` buttons, choose the hash key type. |DDB| builds an unordered hash
    index using the primary key attribute and an optional sorted range index using the range primary
    key attribute. For more information about the primary hash key attribute, go to the 
-   :ddb-dg:`Primary Key <DataModel.html#DataModelPrimaryKey>` section in the |DDB-dg|.
+   `Primary Key <http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.PrimaryKey>`_ section in the |DDB-dg|.
 
 4. (Optional) Select :guilabel:`Enable Range Key`. In the :guilabel:`Range Key Name` field, type a
    range key attribute, and then from the :guilabel:`Range Key Type` buttons, choose a range key
@@ -59,7 +59,7 @@ You can use the |TVS| to create a |DDB| table.
    :guilabel:`Write Capacity` field, type the number of write capacity units. You must specify a
    minimum of three read capacity units and five write capacity units. For more information about
    read and write capacity units, go to 
-   :ddb-dg:`Provisioned Throughput in DynamoDB <HowItWorks.ProvisionedThroughput>`.
+   `Provisioned Throughput in DynamoDB <http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ProvisionedThroughput.html>`_.
 
 6. (Optional) Select :guilabel:`Enable Basic Alarm` to alert you when your table's request rates are
    too high. Choose the percentage of provisioned throughput per 60 minutes that must be exceeded
@@ -71,7 +71,8 @@ You can use the |TVS| to create a |DDB| table.
     :scale: 65
 
 For more information about |DDB| tables, go to 
-:ddb-dg-deep:`Data Model Concepts - Tables, Items, and Attributes <DataModel.html#DataModelTableItemAttribute>`.
+`Data Model Concepts - Tables, Items, and Attributes
+ <http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.TablesItemsAttributes>`_.
 
 
 .. _tkv-dynamodb-grid-view:

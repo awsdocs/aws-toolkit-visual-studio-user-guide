@@ -43,9 +43,9 @@ generate a configuration file either from AWS Explorer or the last step in the w
 .. figure:: images/deploy-save-config-tkv.png
    :scale: 85
 
-To to deploy your web application with the deployment tool, package the application in a .zip file.
+To deploy your web application with the deployment tool, package the application in a .zip file.
 For more information about how to package your application for deployment, go to `How to: Create a
-Web Deployment Package in Visual Studio <http://msdn.microsoft.com/en-us/library/dd465323.aspx>`_ on
+Web Deployment Package in Visual Studio <https://msdn.microsoft.com/en-us/library/dd465323.aspx>`_ on
 MSDN.
 
 .. _tkv-install-and-invoke:
@@ -412,7 +412,7 @@ parameters to customize load balancing and |AS| behavior.
 
     * - Template.InstanceType = t1.micro
       - The `type of Amazon EC2 instance <http://aws.amazon.com/ec2/instance-types/>`_ to use.
-        The Micro instance shown here is the `least expensive <ec2-pricing>`_ type of instance.
+        The Micro instance shown here is the `least expensive <ec2-pricing_>`_ type of instance.
 
     * - Template.SecurityGroup = default
       - The security group for the |EC2| instance. This security group must have already been

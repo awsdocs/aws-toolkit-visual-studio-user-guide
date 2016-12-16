@@ -24,8 +24,7 @@ Deploying to |CFN| (Legacy)
 
 |CFN| is a service that simplifies the process of provisioning AWS resources for your application.
 The AWS resources are described in a template file. The |CFN| service consumes this template and
-automatically provisions the required resources for you. For more information, go to the
-`CloudFormation documentation <http:///documentation/cloudformation/>`_.
+automatically provisions the required resources for you. For more information, go to |CFN|_.
 
 We'll deploy an application to AWS and use |CFN| to provision the resources for the application. To
 practice, you can use an instance of a web application starter project that is built in to Visual
