@@ -35,10 +35,10 @@ in your template.
 
 2. Provide values for parameters you have defined for your stack, and choose :guilabel:`Finish`.
 
-   .. figure:: images/vs-editor-cfn-estimate-cost.png
+   .. figure:: images/vs-editor-cfn-estimate-cost-2.png
        :scale: 65
 
-3. The `AWS Simple Monthly Calculator <http://calculator.s3./calc5.html>`_ will be displayed. The
+3. The `AWS Simple Monthly Calculator <http://calculator.s3.amazonaws.com/index.html>`_ will be displayed. The
    values for the form data will be filled in with information pulled from the template you're
    editing. You can adjust the values, if needed.
 
@@ -50,6 +50,6 @@ in your template.
 
 .. note:: Cost estimates are calculated using the values you provide and the current rates of AWS 
    services, which can vary over time. For more information, see the `How AWS Pricing Works
-   <http://bit.ly/aws-pricing>`_ whitepaper.
+   <https://aws.amazon.com/whitepapers/how-aws-pricing-works/>`_ whitepaper.
 
 
