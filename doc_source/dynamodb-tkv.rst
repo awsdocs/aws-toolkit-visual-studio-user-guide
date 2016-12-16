@@ -71,8 +71,7 @@ You can use the |TVS| to create a |DDB| table.
     :scale: 65
 
 For more information about |DDB| tables, go to 
-`Data Model Concepts - Tables, Items, and Attributes
- <http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.TablesItemsAttributes>`_.
+`Data Model Concepts - Tables, Items, and Attributes <http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.TablesItemsAttributes>`_.
 
 
 .. _tkv-dynamodb-grid-view:
