@@ -86,9 +86,9 @@ programmatic web services requests, so AWS can verify the request comes from an 
 
 The |TVS| supports multiple sets of credentials from any number of accounts. Each set is referred to
 as a *profile*. When you add a profile to |TVS|, the credentials are encrypted and stored in the SDK
-Store, which is also used by the |sdk-net|_ and |TWP-ug|_. The SDK Store is separate from
-your project directories so that it cannot be unintentionally committed to a public repository. To
-use the |TVS|, you must add at least one profile to the SDK Store.
+Store, which is also used by the |sdk-net|_ and the `AWS Tools for Windows PowerShell <TWP-ug_>`_. 
+The SDK Store is separate from your project directories so that it cannot be unintentionally committed 
+to a public repository. To use the |TVS|, you must add at least one profile to the SDK Store.
 
 **To add a profile to the SDK Store**
 

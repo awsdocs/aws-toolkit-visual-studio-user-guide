@@ -38,7 +38,7 @@ in your template.
    .. figure:: images/vs-editor-cfn-estimate-cost-2.png
        :scale: 65
 
-3. The `AWS Simple Monthly Calculator <http://calculator.s3.amazonaws.com/index.html>`_ will be displayed. The
+3. The `AWS Simple Monthly Calculator <https://calculator.s3.amazonaws.com/index.html>`_ will be displayed. The
    values for the form data will be filled in with information pulled from the template you're
    editing. You can adjust the values, if needed.
 
