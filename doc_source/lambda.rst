@@ -51,7 +51,7 @@ Open Visual Studio and create a new project.
    create a database, add |IAM| roles, etc., with serverless deployment. AWS Serverless Applications
    also enable you to deploy multiple functions at one time.
 
-   .. image:: images/ProjectList.png
+   .. image:: images/projectlist.png
       :alt: Project types for AWS Lambda projects
 
 #. After you select the project type, choose a blueprint. For the
@@ -82,7 +82,7 @@ When your function is complete, you can publish it to |LAM|.
 
     Choose :guilabel:`Next`.
 
-    .. image:: images/Upload.png
+    .. image:: images/upload.png
          :alt: Upload screen for Lambda function
 
 
