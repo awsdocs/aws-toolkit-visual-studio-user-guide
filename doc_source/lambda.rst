@@ -118,7 +118,7 @@ When your function is complete, you can publish it to |LAM|.
    the left side of the page enable you to test the function, add event sources, and view the log. The
    configuration tab enables you to add VPC subnets and security groups, memory, timeout, and environment variables.
 
-   .. image:: images/functionPage.png
+   .. image:: images/functionpage.png
        :alt: Function page showing an example request for testing a function
 
 #. To add event sources that can be used to establish a connection between an AWS Resource (such an
@@ -128,7 +128,7 @@ When your function is complete, you can publish it to |LAM|.
    On the :guilabel:`Add Event Sources` page, from :guilabel:`Source Type`, choose the appropriate
    event source.
 
-   .. image:: images/eventSources.png
+   .. image:: images/eventsources.png
        :alt: Add event source page
 
 #. To test the function, in :guilabel:`Example Requests`, choose an example request.
