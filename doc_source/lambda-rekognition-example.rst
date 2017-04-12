@@ -13,20 +13,20 @@
 
 
 ###########################################################
-Tutorial: Creating an |REKlong| Lambda Application
+Tutorial: Creating an Amazon Rekognition Lambda Application
 ###########################################################
 
 .. meta::
    :description: Using the Toolkit for Visual Studio to create an Amazon Recognition Lambda example
    :keywords: AWS SDK for .NET code examples
 
-This tutorial shows you how to create an |LAM| application that uses |REKlong|
+This tutorial shows you how to create an |LAM| application that uses Amazon Rekognition
 to tag |S3| objects with detected labels. 
 
 For prerequisites and information about setting up the |TVSlong|, see :doc:`lambda-index`.
 
-Create a Visual Studio .NET Core |LAM| Image |REK| Project
-==========================================================
+Create a Visual Studio .NET Core |LAM| Image Rekognition Project
+================================================================
 
 #. Open Visual Studio, and on the :guilabel:`File` menu, choose :guilabel:`New`, :guilabel:`Project`.
 #. In the :guilabel:`Installed` pane, choose  Visual C# and the |LAMlong| Project template.
@@ -40,7 +40,7 @@ Create a Visual Studio .NET Core |LAM| Image |REK| Project
 #. After you select the project type, choose a blueprint. Blueprints provide starting code to help
    you write your Lambda functions. For this example, choose the :guilabel:`Detect Image Labels` blueprint.
 
-   This blueprint provides code for listening to |S3| events and uses |REKlong|
+   This blueprint provides code for listening to |S3| events and uses Amazon Rekognition
    to detect labels and add them to the S3 object as tags.
 
     .. image:: images/lambda-blueprints.png
@@ -82,10 +82,10 @@ Examine the Files
    the streams to typed classes. You can set the serializer at the assembly or method level.
 
    The class has two constructors. The first is a default constructor that is used when Lambda invokes
-   your function. This constructor creates the S3 and |REK| service clients, and gets the AWS
+   your function. This constructor creates the S3 and Rekognition service clients, and gets the AWS
    credentials for these clients from the |IAM| role you assign to the function when you deploy it. The
    AWS Region for the clients is set to the region your Lambda function is running in. In this blueprint,
-   you only want to add tags to the S3 object if the |REK| service has a minimum level of confidence
+   you only want to add tags to the S3 object if the Rekognition service has a minimum level of confidence
    about the label. This constructor checks the environment variable :code:`MinConfidence` to determine the
    acceptable confidence level. You can set this environment variable when you deploy the Lambda function.
 
@@ -116,7 +116,7 @@ Examine the Files
             }
         }
 
-   You can use the second constructor for testing. The test project configures its own S3 and |REK|
+   You can use the second constructor for testing. The test project configures its own S3 and Rekognition
    clients and passes them in.
 
    .. code-block:: C#
@@ -131,7 +131,7 @@ Examine the Files
    :code:`FunctionHandler` is the method Lambda calls after it constructs the instance. Notice that
    the input parameter is of type :code:`S3Event` and not a :code:`Stream`. You can do this because of the registered
    Lambda JSON serializer. The :code:`S3Event` contains all the information about the event triggered in |S3|. The function
-   loops through all the S3 objects that were part of the event and tells |REK| to detect labels. After
+   loops through all the S3 objects that were part of the event and tells Rekognition to detect labels. After
    the labels are detected, they are added as tags to the S3 object.
 
    .. code-block:: C#
