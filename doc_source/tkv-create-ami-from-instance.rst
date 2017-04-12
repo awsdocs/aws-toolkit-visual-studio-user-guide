@@ -24,17 +24,17 @@ either running or stopped instances.
 *To create an AMI from an instance*
 
 1. Right-click the instance you want to use as the basis for your AMI, and choose :guilabel:`Create
-   Image (EBS AMI)` from the context menu.
+   Image` from the context menu.
 
-   .. figure:: images/tkv-ec2-create-ami-menu.png
+   .. figure:: images/tkv-ec2-create-ami-menu2.png
        :scale: 75
 
-   :guilabel:`Create Image (EBS AMI)` context menu
+   :guilabel:`Create Image` context menu
 
 2. In the :guilabel:`Create Image` dialog box, type a unique name and description, and then choose
-   :guilabel:`OK`.
+   :guilabel:`Create Image`.
 
-   .. figure:: images/tkv-ec2-create-ami-dlg.png
+   .. figure:: images/tkv-ec2-create-ami-dlg2.png
        :scale: 75
 
    :guilabel:`Create Image` dialog box
@@ -46,7 +46,7 @@ It may take a few minutes for the AMI to be created. After it is created, it wil
 first appears, it may be in a pending state, but after a few moments, it transitions to an available
 state.
 
-.. figure:: images/tkv-ec2-created-amis-list.png
+.. figure:: images/tkv-ec2-created-amis-list2.png
     :scale: 75
 
 List of created AMIs

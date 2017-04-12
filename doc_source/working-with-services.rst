@@ -41,5 +41,9 @@ It assumes that you've already installed the AWS Toolkit for Visual Studio on yo
     tkv-simpleDB
     tkv-sqs
     tkv-iam
-    lambda
+    lambda-index
     lambda-cli-publish
+    lambda-creating-project-in-visual-studio
+    lambda-build-test-severless-app
+    lambda-rekognition-example
+    cw-log-frameworks-done
