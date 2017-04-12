@@ -55,4 +55,4 @@ Tutorials
     lambda-creating-project-in-visual-studio
     lambda-build-test-severless-app
     lambda-rekognition-example
-    cw-log-frameworks-done
+    cw-log-frameworks
