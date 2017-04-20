@@ -28,7 +28,7 @@ Create a Visual Studio .NET Core |LAM| Project
 ==============================================
 
 #. Open Visual Studio, and on the :guilabel:`File` menu, choose :guilabel:`New`, :guilabel:`Project`.
-#. In the :guilabel:`Installed` pane, choose  Visual C# and the :guilabel:`|LAMlong| Project (.NET Core)``
+#. In the :guilabel:`Installed` pane, choose  Visual C# and the :guilabel:`AWS Lambda  Project (.NET Core)``
    template.
 
    There are two types of project to choose from:
@@ -39,7 +39,7 @@ Create a Visual Studio .NET Core |LAM| Project
      can simultaneously create a database, add |IAM| roles, etc., with serverless deployment. AWS 
      serverless applications also enable you to deploy multiple functions at one time.
 
-   .. image:: images/projectlist.png
+   .. image:: images/projectlist2.png
       :alt: Project types for AWS Lambda projects
 
 #. After you select the project type, choose a blueprint. For
@@ -51,6 +51,30 @@ Create a Visual Studio .NET Core |LAM| Project
 
 #. Choose the type of |LAM| function you want to develop, and then choose :guilabel:`Finish`
    to create the Visual Studio project. You can now review the project's structure and code.
+   
+Review the Project Files
+========================
+
+Examine the :code:`aws-lambda-tools-defaults.json` file, which is created as part of your project. You can set 
+the options in this file, which is read by the Lambda tooling by default. The project templates created 
+in Visual Studio set many of these fields with default values. This is where the function handler is 
+specified which is why you don't have to set it in the wizard. But if you rename the Function, Class 
+or Assembly then you will need to update the field in the :code:`aws-lambda-tools-defaults.json` file. 
+
+.. code-block:: js
+
+{                                                                                   
+  "profile":"default",                                                            
+  "region" : "us-east-2",                                                           
+  "configuration" : "Release",                                                      
+  "framework" : "netcoreapp1.0",                                                    
+  "function-runtime":"dotnetcore1.0",                                               
+  "function-memory-size" : 256,                                                     
+  "function-timeout" : 30,                                                          
+  "function-handler" : "BlogExample::BlogExample.Function::FunctionHandler"         
+}
+
+When you use this aws-lambda-tools-default.json file, the only things left that the Lambda tooling needs to deploy the function are the name of the Lambda function and the IAM role.
 
 Your project is now ready to publish to |LAM|.
 
@@ -115,7 +139,7 @@ To publish your function to |LAM|:
    This will display the :guilabel:`Add Event Source` page.
 
    On the :guilabel:`Add Event Source` page, from :guilabel:`Source Type`, choose the appropriate
-   event source and choose :guilabel: `OK` to add the event source.
+   event source and choose :guilabel:`OK` to add the event source.
 
    .. image:: images/eventsources.png
        :alt: Add Event Source page

@@ -20,7 +20,7 @@ Tutorial: Build and Test a Serverless Application with |LAMlong|
 You can build a serverless |LAM| application by using an |TVSlong|
 template. The |LAM| project templates include one for an :guilabel:`AWS Serverless Application`, which
 is the |TVSlong| implementation of the `AWS Serverless Application Model (AWS SAM) <https://github.com/awslabs/serverless-application-model>`_. 
-Using this project typeyou can develop a collection of |LAMlong| functions and deploy them with any 
+Using this project type you can develop a collection of |LAMlong| functions and deploy them with any 
 necessary AWS resources as a whole application, using |CFNlong| to orchestrate the deployment.
 
 For prerequisites and information about setting up the |TVSlong|, see :doc:`lambda-index`.
@@ -33,7 +33,7 @@ Create a New AWS Serverless Application Project
 ===============================================
 
 #. Open Visual Studio, and on the :guilabel:`File` menu, choose :guilabel:`New`, :guilabel:`Project`.
-#. In the :guilabel:`Installed` pane, choose  Visual C# and the |LAMlong| Project template.
+#. In the :guilabel:`Installed` pane, choose  Visual C# and the |LAM| Project template.
 
    There are two types of project to choose from:
 
@@ -198,17 +198,17 @@ Deploy the serverless application by right-clicking the project and choosing
 This launches the deployment wizard, and because all the |LAM| configuration was done in the
 :code:`serverless.template` file, all you need to supply are the following:
 
-* The name of the |DDB| stack, which will be the container for all the resources declared in the template.
+* The name of the CloudFormation stack, which will be the container for all the resources declared in the template.
 * The S3 bucket to upload your application bundle to.
 
-These should exist in the same AWS Region.
+These must exist in the same AWS Region.
 
 .. image:: images/serverless-first-page.png
       :alt: Enter publish details
 
 Because the serverless template has parameters, an additional page is displayed in the wizard so
 you can specify the values for the parameters. You can leave the :code:`BlogTableName` property blank
-and let |DDB| generate a unique name for the table. You do need to set :code:`ShouldCreateTable`
+and let CloudFormation generate a unique name for the table. You do need to set :code:`ShouldCreateTable`
 to :code:`true` so that |DDB| will create the table. To use an existing table, enter the table name
 and set the :code:`ShouldCreateTable` parameter to :code:`false`. You can leave the other fields at
 their default values and choose :guilabel:`Publish`.
@@ -217,7 +217,7 @@ their default values and choose :guilabel:`Publish`.
    :alt: Edit template parameters
 
 
-Once the publish step is complete, the |DDB| stack view is displayed in AWS Explorer. This
+Once the publish step is complete, the CloudFormation stack view is displayed in AWS Explorer. This
 view shows the progress of the creation of all the resources declared in your serverless template.
 
 .. image:: images/serverless-stack-view.png

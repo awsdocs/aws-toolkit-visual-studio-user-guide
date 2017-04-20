@@ -24,8 +24,8 @@ templates to quickly develop and deploy .NET Core-based C# |LAM| functions. .NET
 supporting Windows, macOS, and Linux, and can be used to develop device, cloud,
 and embedded applications.
 
-You must have Visual Studio 2015 Update 3 installed to install `.NET Core for Wndows <https://www.microsoft.com/net/core#windowsvs2015>`_ 
-and the |TVS|_.
+To install the |TVS|_ you must have either Visual Studio 2017 or Visual Studio 2015 Update 3 and `.NET Core for Windows <https://www.microsoft.com/net/core#windowsvs2015>`_ 
+installed.
 
 For more information, see the following:
 
@@ -40,8 +40,8 @@ Prerequisites
 
 To do the following tutorials, you must first:
 
-* Install Visual Studio 2015 Update 3.
-* Install `.NET Core for Windows <https://www.microsoft.com/net/download/core>`_.
+* Install Visual Studio 2015 Update 3 or Visual Studio 2017.
+* Install `.NET Core for Windows <https://www.microsoft.com/net/download/core>`_ (not necessary for Visual Studio 2017).
 * Install the `AWS Toolkit for Visual Studio <https://aws.amazon.com/visualstudio/>`_. and specify 
   your credentials. See :doc:`getting-set-up`.
 
