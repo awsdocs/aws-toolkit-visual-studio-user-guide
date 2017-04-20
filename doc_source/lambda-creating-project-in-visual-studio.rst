@@ -39,7 +39,7 @@ Create a Visual Studio .NET Core |LAM| Project
      can simultaneously create a database, add |IAM| roles, etc., with serverless deployment. AWS 
      serverless applications also enable you to deploy multiple functions at one time.
 
-   .. image:: images/projectlist2.png
+   .. image:: images/ProjectList2.png
       :alt: Project types for AWS Lambda projects
 
 #. After you select the project type, choose a blueprint. For
@@ -86,13 +86,13 @@ To publish your function to |LAM|:
 #. In :guilabel:`Solution Explorer`, right-click
    the project, and then choose :guilabel:`Publish to AWS Lambda`.
 
-   .. image:: images/publish.png
+   .. image:: images/Publish.png
       :alt: Publishing a Visual Studio project to AWS Lambda
 
 #.  On the :guilabel:`Upload Lambda Function` page, in :guilabel:`Function Name`, type a name for
     the function or select a previously published function to republish. Then choose :guilabel:`Next`.
 
-    .. image:: images/upload.png
+    .. image:: images/Upload.png
          :alt: Upload screen for Lambda function
 
 #.  In the :guilabel:`Advanced Function Details` page, set the fields as follows:
@@ -114,7 +114,7 @@ To publish your function to |LAM|:
 
 #. Choose :guilabel:`Upload`.
 
-    .. image:: images/advancedfunction.png
+    .. image:: images/AdvancedFunction.png
          :alt: Set Lambda function details in the Advanced Function Details page
 
 #. The :guilabel:`Uploading Function` page is shown while the function is uploading, and
@@ -131,7 +131,7 @@ To publish your function to |LAM|:
    the :guilabel:`Configuration` tab to add VPC subnets and security groups, memory, timeout,
    and environment variables.
 
-   .. image:: images/functionpage.png
+   .. image:: images/FunctionPage.png
        :alt: Function page showing an example request for testing a function
 
 #. To add event sources to establish a connection between an AWS resource (such as an
@@ -141,7 +141,7 @@ To publish your function to |LAM|:
    On the :guilabel:`Add Event Source` page, from :guilabel:`Source Type`, choose the appropriate
    event source and choose :guilabel:`OK` to add the event source.
 
-   .. image:: images/eventsources.png
+   .. image:: images/EventSources.png
        :alt: Add Event Source page
 
 #. To test the function, in :guilabel:`Example Requests`, choose an example request.
