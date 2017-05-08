@@ -71,7 +71,7 @@ To deploy an application by using the Publish to Elastic Beanstalk wizard
 
 1. In Solution Explorer, open the context (right-click) menu for the :guilabel:`AEBWebAppDemo` project
    folder for the project you created in the previous section, or open the context menu for the
-   project folder for your own application, and choose :guilabel:`Publish to AWS`.
+   project folder for your own application, and choose :guilabel:`Publish to AWS Elastic Beanstalk`.
 
    .. figure:: images/tkv-publish-to-aws-console.png
        :scale: 85

@@ -63,16 +63,16 @@ or Assembly then you will need to update the field in the :code:`aws-lambda-tool
 
 .. code-block:: js
 
-{                                                                                   
-  "profile":"default",                                                            
-  "region" : "us-east-2",                                                           
-  "configuration" : "Release",                                                      
-  "framework" : "netcoreapp1.0",                                                    
-  "function-runtime":"dotnetcore1.0",                                               
-  "function-memory-size" : 256,                                                     
-  "function-timeout" : 30,                                                          
-  "function-handler" : "BlogExample::BlogExample.Function::FunctionHandler"         
-}
+    {                                                                                   
+      "profile":"default",                                                            
+      "region" : "us-east-2",                                                           
+      "configuration" : "Release",                                                      
+      "framework" : "netcoreapp1.0",                                                    
+      "function-runtime":"dotnetcore1.0",                                               
+      "function-memory-size" : 256,                                                     
+      "function-timeout" : 30,                                                          
+      "function-handler" : "BlogExample::BlogExample.Function::FunctionHandler"         
+    }
 
 When you use this aws-lambda-tools-default.json file, the only things left that the Lambda tooling needs to deploy the function are the name of the Lambda function and the IAM role.
 

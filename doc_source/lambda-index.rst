@@ -24,8 +24,8 @@ templates to quickly develop and deploy .NET Core-based C# |LAM| functions. .NET
 supporting Windows, macOS, and Linux, and can be used to develop device, cloud,
 and embedded applications.
 
-To install the |TVS|_ you must have either Visual Studio 2017 or Visual Studio 2015 Update 3 and `.NET Core for Windows <https://www.microsoft.com/net/core#windowsvs2015>`_ 
-installed.
+To install the |TVS|_ you must have either Visual Studio 2017 or Visual Studio 2015 Update 3 and 
+`.NET Core for Windows <https://www.microsoft.com/net/download/core>`_ installed.
 
 For more information, see the following:
 

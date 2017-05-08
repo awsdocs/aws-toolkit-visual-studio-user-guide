@@ -10,9 +10,13 @@
 
 .. _top:
 
-##############################################
-AWS Toolkit for Visual Studio User Guide v1.30
-##############################################
+####################
+|TVSlong| User Guide
+####################
+
+.. meta::
+    :description: AWS Toolkit for Visual Studio, AWS Tools for Windows
+    :keywords:
 
 .. toctree::
     :titlesonly:
@@ -24,3 +28,4 @@ AWS Toolkit for Visual Studio User Guide v1.30
     tkv-document-history
 
 
+include:: about-aws.txt

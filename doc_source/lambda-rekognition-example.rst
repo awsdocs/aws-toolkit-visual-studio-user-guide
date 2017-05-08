@@ -231,7 +231,7 @@ Deploy the Function
         .. image:: images/lambda-function-view.png
 
 #. With your function deployed, you need to configure |S3| to send its events to your new function. On
-   the :guilabel:`Event Sources` tab, choose :guilabel:`Add`. Then choose |Amazon S3|
+   the :guilabel:`Event Sources` tab, choose :guilabel:`Add`. Then choose Amazon S3
    and the bucket you want to connect to your Lambda function. The bucket must be in the
    same region as the region where the Lambda function is deployed.
 
