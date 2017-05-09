@@ -28,4 +28,4 @@
     tkv-document-history
 
 
-include:: about-aws.txt
+.. include:: about-aws.txt
