@@ -48,15 +48,19 @@ To install and configure the |TVS|, you must:
 
 .. _install:
 
-Install the |TFW|
+Install the |TVS|
 =================
 
-The |TVS| is part of the |TFW|. If you have Visual Studio 2013 or later, install the |TFW| as
+The |TVS| 2017 is distributed in the Visual Studio Marketplace. You can download and install 
+the toolkit at https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017.
+You can also install and update the toolkit using the Extensions and Updates dialog within Visual Studio.
+
+The |TVS| 2013 and 2015 versions is part of the |TFW|. You can install the |TFW| for these versions as
 follows.
 
 .. topic:: To install the |TFW|
 
-1. Open `Toolkit for Visual Studio <https://aws.amazon.com/visualstudio>`_.
+1. Navigate to the page `AWS Toolkit for Visual Studio <https://aws.amazon.com/visualstudio>`_.
 
 2. In the :guilabel:`Download` section, choose |TVS| to download the installer.
 
