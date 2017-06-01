@@ -1,4 +1,5 @@
 output/
+shared_content/
 AwsSphinxSharedContent
 build
 .DS_Store
