@@ -138,6 +138,15 @@ EC2 instance.
      using Remote Desktop Protocol (RDP). Choose a key pair for which you have access to the
      private key, or choose the option to create a key pair. If you create the key pair in the
      Toolkit, the Toolkit can store the private key for you.
+     
+     Key pairs stored in the AWSToolKit are encrypted. you can find them at 
+     :code:`%LOCALAPPDATA%\AWSToolkit\keypairs` (typically: :code:`C:\Users\<user>\AppData\Local\AWSToolkit\keypairs`).  
+     You can export the encrypted key pair into a :code:`.pem` file.  
+            1. In Visual Studio, select :guilabel:`View` and click :guilabel:`AWS Explorer`. 
+            2. Click on :guilabel:`Amazon EC2` and select :guilabel:`Key Pairs`. 
+            3. The key pairs will be listed, and those created/managed by the Toolkit marked as :guilabel:`Stored in AWSToolkit`. 
+            4. Right click on the key pair you created and select :guilabel:`Export Private Key`. The 
+               private key will be unencrypted and stored in the location you specify.  
 
    *Security Group*
      The security group controls the type of network traffic the EC2 instance will accept. Choose
