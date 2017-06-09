@@ -21,7 +21,7 @@ Tutorial: Creating an Amazon Rekognition Lambda Application
    :keywords: AWS SDK for .NET code examples
 
 This tutorial shows you how to create an |LAM| application that uses Amazon Rekognition
-to tag |S3| objects with detected labels. 
+to tag |S3| objects with detected labels.
 
 For prerequisites and information about setting up the |TVSlong|, see :doc:`lambda-index`.
 
@@ -33,7 +33,7 @@ Create a Visual Studio .NET Core |LAM| Image Rekognition Project
    Choose AWS Lambda Project with Tests (.NET Core), name the project ImageRekognition, and then choose
    :guilabel:`OK`.
 
-    .. image:: images/projectlist.png
+    .. image:: images/ProjectList.png
        :alt: Project types for AWS Lambda projects
 
 
@@ -215,8 +215,8 @@ Deploy the Function
 
         .. image:: images/lambda-deployment-wizard-page1.png
 
-#. On the :guilabel:`Advanced Function Details` page, select an IAM role that gives permission for 
-   your code to access S3 and Rekognition. To keep this post short, select the 
+#. On the :guilabel:`Advanced Function Details` page, select an IAM role that gives permission for
+   your code to access S3 and Rekognition. To keep this post short, select the
    :guilabel:`Power User managed policy`. The tools create a role based on this policy.
 
 #. Finally, set the environment variable :code:`MinConfidence` to 60, and then choose :guilabel:`Upload`.
@@ -246,4 +246,3 @@ function view. Or, right-click the images in the bucket browser and choose :guil
 On the :guilabel:`Tags` tab, you can view the tags that were applied to your object.
 
         .. image:: images/lambda-object-properties.png
-
