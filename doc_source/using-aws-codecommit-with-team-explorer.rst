@@ -12,15 +12,15 @@
 
 
 
-###############################################################
-Tutorial: Using AWS CodeCommit with Visual Studio Team Explorer
-###############################################################
+#####################################################
+Using AWS CodeCommit with Visual Studio Team Explorer
+#####################################################
 
 .. meta::
    :description: Using AWS CodeCommit with Visual Studio Team Explorer
 
 
-This tutorial shows how to use AWS Identity and Access Management (|IAM|) user accounts to create Git
+You can use AWS Identity and Access Management (|IAM|) user accounts to create Git
 credentials and use them to create and clone repositories from within Team Explorer.
 
 Credential Types for |ACClong|

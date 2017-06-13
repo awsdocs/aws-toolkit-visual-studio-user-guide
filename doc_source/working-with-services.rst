@@ -37,6 +37,7 @@ It assumes that you've already installed the AWS Toolkit for Visual Studio on yo
     tkv-cfn-editor
     tkv-s3
     dynamodb-tkv
+    using-aws-codecommit-with-team-explorer
     rds-tkv
     tkv-simpleDB
     tkv-sqs
