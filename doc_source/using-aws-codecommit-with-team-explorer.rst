@@ -40,8 +40,7 @@ user accounts. You cannot create them for a root account. You can create up to t
 for the service and, although you can mark a set of credentials as inactive, inactive sets still count
 toward your limit of two sets. Note that you can delete and recreate credentials at any time. When
 you use |ACClong| from within Visual Studio, your traditional AWS credentials are used for working
-with the service itself, for example, when you're creating and listing repositories. When working with
-
+with the service itself, for example, when you're creating and listing repositories. When working with 
 the actual Git repositories hosted in |ACClong|, you use the Git credentials.
 
 As part of the support for |ACClong|, the |TVS| automatically creates and manages these Git credentials
