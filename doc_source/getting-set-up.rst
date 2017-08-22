@@ -51,8 +51,8 @@ To install and configure the |TVS|, you must:
 Install the |TVS|
 =================
 
-The |TVS| 2017 is distributed in the Visual Studio Marketplace. You can download and install 
-the toolkit at https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017.
+The |TVS| 2017 is distributed in the 
+`Visual Studio Marketplace <https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017>`_. 
 You can also install and update the toolkit using the Extensions and Updates dialog within Visual Studio.
 
 The |TVS| 2013 and 2015 versions is part of the |TFW|. You can install the |TFW| for these versions as
@@ -62,7 +62,7 @@ follows.
 
 1. Navigate to the page `AWS Toolkit for Visual Studio <https://aws.amazon.com/visualstudio>`_.
 
-2. In the :guilabel:`Download` section, choose |TVS| to download the installer.
+2. In the :guilabel:`Download` section, choose |TVS| 2013-2015 to download the installer.
 
 3. To start the installation, run the downloaded installer and follow the instructions.
 
@@ -81,9 +81,7 @@ programmatic web services requests, so AWS can verify that the request comes fro
 
 .. important:: AWS credentials consist of an access key and a secret key. We recommend that you do
    not use your account's root credentials. Instead, create one or more |IAM| users, and then use
-   those credentials. For more information, see
-   :aws-blogs-net:`Using IAM Users <Tx2O8RZZ1RLE898Using-IAM-Users-Access-Key-Management-for-NET-Applications-Part-2>`
-   and :aws-gr:`Best Practices for Managing AWS Access Keys <aws-access-keys-best-practices>`.
+   those credentials. For more information, see `Using IAM Users <https://aws.amazon.com/blogs/developer/using-iam-users-access-key-management-for-net-applications-part-2/>`_ and :aws-gr:`Best Practices for Managing AWS Access Keys <aws-access-keys-best-practices>`.
 
 The |TVS| supports multiple sets of credentials from any number of accounts. Each set is referred to
 as a *profile*. When you add a profile to |TVS|, the credentials are encrypted and stored in the SDK
@@ -158,8 +156,7 @@ After you add the first profile, you can also do the following:
   For example, if you have :aws-gr:`rotated an IAM user's credentials
   <aws-access-keys-best-practices>` |mdash| a recommended
   practice |mdash| you can edit the profile to update the user's credentials in the SDK Credential Store. For
-  more information, see :aws-blogs-net:`IAM Credential Rotation
-  <Tx2DJQU2MKGR463/IAM-Credential-Rotation-Access-Key-Management-for-NET-Applications-Part-3>`.
+  more information, see `IAM Credential Rotation  <https://aws.amazon.com/blogs/developer/iam-credential-rotation-access-key-management-for-net-applications-part-3/>`_.
 
 You can also add profiles to the SDK Credential Store when you create an AWS project. Before Visual Studio
 creates the project files, it displays the :guilabel:`AWS Access Credentials` dialog box. You can
