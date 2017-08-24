@@ -19,21 +19,28 @@ How to Republish Your Application to an |EB| Environment
    :keywords: republish, Elastic Beanstalk
 
 You can iterate on your application by making discrete changes and then republishing a new version
-to your already launched |EB| environment.
+to your already launched |EB| environment. 
 
-1. In Solution Explorer, open the context (right-click) menu for the project node and then choose 
-   :guilabel:`Republish to Environment '<environment_name>'`.
+1. In Solution Explorer, open the context (right-click) menu for the :guilabel:`AEBWebAppDemo` project 
+   folder for the project you published in the previous section, and choose :guilabel:`Publish to AWS Elastic Beanstalk`.   
 
-   .. figure:: images/tkv-republish-to-aws-console.png
-        :scale: 100
+   .. figure:: images/tkv-publish-to-aws-console.png
+       :scale: 85
+       
+   The :guilabel:`Publish to Elastic Beanstalk` wizard appears.
 
-2. On the page that appears, choose :guilabel:`Deploy`. The new version of your application will be
-   published to the current environment.
+   .. figure:: images/tkv-aeb-wizard-app-console2.png
+       :scale: 85
+       
+2. Select :guilabel:`Redeploy to an existing environment` and choose the environment you previously 
+   published to. Click :guilabel:`Next`.
 
-When you republish, you do not have the option to use a new or different environment. If you need to
-change any aspect of your deployment other than the options offered on the settings page, you must
-choose :guilabel:`Publish to AWS` (instead of :guilabel:`Republish to Environment 
-'<environment_name>'`) in step 1 and use the deployment wizard to make changes.
+   The :guilabel:`Review` wizard appears.
+
+   .. figure:: images/tkv-aeb-wizard-app-review.png
+       :scale: 85
+
+3.  Click :guilabel:`Deploy`.  The application will redploy to the same environment.
 
 You cannot republish if your application is in the process of launching or terminating.
 
