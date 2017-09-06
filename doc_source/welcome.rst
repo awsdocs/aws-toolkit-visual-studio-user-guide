@@ -28,6 +28,9 @@ debug, and deploy .NET applications that use Amazon Web Services. The |TVS| is s
 Visual Studio versions 2013 and later. For details about how to download and install the kit,
 see :ref:`install`.
 
+.. note:: The |TVS| is also available for Visual Studio 2008, 2010, and 2012 versions. However, those versions are not supported.
+   For more information, see :ref:`install`.
+
 The |TVS| contains the following features to enhance your development experience.
 
 |Explorer|
@@ -107,15 +110,6 @@ Credential and Region Management
 |IAMlong| (|IAM|)
 -----------------
     From |Explorer|, you can create |IAM| users, roles, and policies, and attach policies to users.
-
-|sdk-net|
----------
-    The |TVS| installs the latest version of the |sdk-net|. From Visual Studio,
-    easily modify, build, and run any of the samples included in the SDK.
-
-.. note:: The |TVS| is also available for Visual Studio 2008, 2010, and 2012 versions. However, it is
-   not supported.
-   For more information, see :ref:`install`.
 
 .. include:: about-aws.txt
 
