@@ -35,8 +35,7 @@ For more information, see the following:
 * For information about |LAMlong| functions, see
   `What Is AWS Lambda? <http://docs.aws.amazon.com/lambda/latest/dg/welcome.html>`_
 
-Prerequisites
-=============
+**Prerequisites**
 
 To do the following tutorials, you must first:
 
@@ -44,9 +43,6 @@ To do the following tutorials, you must first:
 * Install `.NET Core for Windows <https://www.microsoft.com/net/download/core>`_ (not necessary for Visual Studio 2017).
 * Install the `AWS Toolkit for Visual Studio <https://aws.amazon.com/visualstudio/>`_. and specify 
   your credentials. See :doc:`getting-set-up`.
-
-Tutorials
-=========
 
 .. toctree::
     :titlesonly:
