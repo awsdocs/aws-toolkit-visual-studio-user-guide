@@ -102,7 +102,7 @@ To publish your function to |LAM|:
       or your own managed policy. The role is used to provide credentials for any AWS service
       calls made by the code in the function. Your account must have permission to run the IAM
       ListPolicies action, or the :guilabel:`Role Name` list will be empty and you will be unable to
-      continue.
+      continue. If you create a new role you'll also need the CreateRole permission.
     * *Optional:* If your Lambda function accesses resources on an |VPC|, select the subnets and
       security groups.
     * *Optional:* Set any environment variables that your |LAM| function needs. The keys are
