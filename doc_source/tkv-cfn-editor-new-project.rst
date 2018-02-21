@@ -27,11 +27,10 @@ Creating a |CFN| Template Project in Visual Studio
 2. In the :guilabel:`New Project` dialog box, choose :guilabel:`Installed`, choose
    :guilabel:`AWS`, and then choose :guilabel:`AWS Cloud Formation Project`.
 
-  .. figure:: images/vs-editor-new-template-2.png
+   .. figure:: images/vs-editor-new-template-2.png
       :scale: 85
 
 3. In :guilabel:`Name`, type the name of your template project.
-
 
 4. On the :guilabel:`Select Project Source` page, choose the source of the template you will create:
 
@@ -42,7 +41,7 @@ Creating a |CFN| Template Project in Visual Studio
 
    * :guilabel:`Select sample template` generates a template from one of the |CFN| sample templates.
 
-  .. figure:: images/vs-editor-new-template-empty-2.png
+   .. figure:: images/vs-editor-new-template-empty-2.png
       :scale: 85
 
 5. To complete the creation of your |CFN| template project, choose :guilabel:`Finish`.

@@ -8,7 +8,7 @@
    either express or implied. See the License for the specific language governing permissions and
    limitations under the License.
 
-.. _tkv-sg:
+.. _tkv-sg-create:
 
 ##########################################
 Managing Security Groups from AWS Explorer
@@ -28,7 +28,7 @@ which types of network traffic are allowed on an |EC2| instance. It can also spe
 traffic will be accepted from certain IP addresses only or from specified users or other security
 groups only.
 
-.. _tkv-sg-create:
+.. _tkv-sg-create-security:
 
 Creating a Security Group
 =========================

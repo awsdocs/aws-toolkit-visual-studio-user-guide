@@ -22,6 +22,8 @@ The |TVS| supports application deployment to |AEBlong| containers or |CFN| stack
 
 * :ref:`tkv-deploy-beanstalk` describes how to use the Visual Studio IDE to deploy applications to |EB|.
 
+* :ref:`tkv-deploy-ecs` describes how to use the Visual Studio IDE to deploy applications to |ECS|.
+
 * :ref:`tkv-deployment-tool` describes how to use the standalone deployment tool to deploy to either 
   |EB| containers or |CFN| stacks from a command window.
 
@@ -30,18 +32,24 @@ The |TVS| supports application deployment to |AEBlong| containers or |CFN| stack
     * You can use the :ref:`standalone deployment tool <tkv-deployment-tool>` to deploy applications 
       to |EB| containers.
 
+    * You can use the :ecs-dg:`Docker CLI <docker-basics.use-ecr>` to deploy 
+      applications to |ECS| containers.
+
     * You can use the :eb-dg:`AWS Management Console <using-features.deployment.newapp>` to deploy
       applications to |EB| containers.
 
-    For either approach, you must first create a web deployment package. For more information, see
-    `How to: Create a Web Deployment Package in Visual Studio <http://msdn.microsoft.com/en-us/library/dd465323.aspx>`_.
-
+    For |EB| deployments, you must first create a web deployment package. For more information, see
+    `How to: Create a Web Deployment Package in Visual Studio <http://msdn.microsoft.com/en-us/library/dd465323.aspx>`_. 
+    For |ECS| deployment, you must have a Docker image. For more information, see 
+    `Visual Studio Tools for Docker <http://docs.microsoft.com/en-us/aspnet/core/publishing/visual-studio-tools-for-docker>`_.
+    
 
 .. toctree::
     :titlesonly:
     :maxdepth: 1
 
     deployment-beanstalk
+    deployment-ecs
     deployment-tool
 
 

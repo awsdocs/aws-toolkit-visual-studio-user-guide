@@ -43,8 +43,8 @@ but from the Visual Studio development environment. The
 
 .. _tkv-vpc-pub-pri:
 
-Walkthrough: How to Create a Public-Private VPC for Deployment with AWS Elastic Beanstalk
-=========================================================================================
+Creating a Public-Private VPC for Deployment with AWS Elastic Beanstalk
+=======================================================================
 
 This section describes how to create an |VPC| that contains both public and private subnets. The
 public subnet contains an |EC2| instance that performs network address translation (NAT) to enable

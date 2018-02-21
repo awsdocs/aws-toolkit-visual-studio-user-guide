@@ -579,4 +579,3 @@ The deployment tool implements the :code:`updateStack` feature by calling the |C
     :maxdepth: 1
 
     custom-template-tkv
-

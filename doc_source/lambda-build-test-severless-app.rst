@@ -75,7 +75,7 @@ defined to manage a blog platform:
 * :code:`RemoveBlogAsync`: removes a blog from the |DDB| table.
 
 Each of these functions accepts an `APIGatewayProxyRequest <https://github.com/aws/aws-lambda-dotnet/blob/master/Libraries/src/Amazon.Lambda.APIGatewayEvents/APIGatewayProxyRequest.cs>`_
-object and returns an `APIGatewayProxyResponse <https://github.com/aws/aws-|LAM|-dotnet/blob/master/Libraries/src/Amazon.Lambda.APIGatewayEvents/APIGatewayProxyResponse.cs>`_.
+object and returns an `APIGatewayProxyResponse <https://github.com/aws/aws-lambda-dotnet/blob/master/Libraries/src/Amazon.Lambda.APIGatewayEvents/APIGatewayProxyResponse.cs>`_.
 
 You expose these |LAM| functions as HTTP APIs by using |ABPlong|. The :code:`APIGatewayProxyRequest`
 contains all the information representing the HTTP request. The :code:`GetBlogAsync` task finds

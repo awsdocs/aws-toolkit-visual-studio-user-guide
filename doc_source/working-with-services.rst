@@ -29,6 +29,7 @@ It assumes that you've already installed the AWS Toolkit for Visual Studio on yo
     :maxdepth: 1
     
     tkv-ec2-ami
+    tkv-ecs
     tkv-sg-create
     tkv-create-ami-from-instance
     tkv-set-ami-launch-perms
