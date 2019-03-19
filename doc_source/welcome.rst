@@ -1,4 +1,4 @@
-.. Copyright 2010-2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+.. Copyright 2010-2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
    This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
    International License (the "License"). You may not use this file except in compliance with the
@@ -23,7 +23,7 @@ Using the |TVSlong|
 |TVS|
 =====
 
-The |TVS| is a plugin for the Visual Studio IDE that makes it easier for you to develop,
+The |TVSlong| is a plugin for the Visual Studio IDE that makes it easier for you to develop,
 debug, and deploy .NET applications that use Amazon Web Services. The |TVS| is supported for
 Visual Studio versions 2013 and later. For details about how to download and install the kit,
 see :ref:`install`.
