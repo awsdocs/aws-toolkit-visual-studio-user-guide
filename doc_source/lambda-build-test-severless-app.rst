@@ -53,7 +53,7 @@ Create a New AWS Serverless Application Project
    .. image:: images/serverless-blueprints.png
       :alt: Blueprints for an AWS Lambda Serverless project
 
-#. Choose the :guilabel:`Blog API using |DDB| blueprint`, and then choose :guilabel:`Finish`
+#. Choose the :guilabel:`Blog API using DynamoDB` blueprint, and then choose :guilabel:`Finish`
    to create the Visual Studio project.
 
 Examine the Files in the Serverless Application
@@ -179,7 +179,7 @@ function. You can also set up other types of event sources in this section.
 .. image:: images/template-addeventsource.png
    :alt: Add an event source
 
-One of the benefits of using |DDB| to manage the deployment is you can also add and configure
+One of the benefits of using |CFN| to manage the deployment is you can also add and configure
 any other AWS resources necessary for your application in the template, and let |DDB| take
 care of creating and deleting the resources.
 

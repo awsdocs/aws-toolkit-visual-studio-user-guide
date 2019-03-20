@@ -159,7 +159,7 @@ To deploy an application by using the legacy Publish to Amazon Web Services wiza
      logs. For instructions, see 
      :eb-dg-deep:`Using a Custom Instance Profile <AWSHowTo.iam.roles.logs.html#AWSHowTo.iam.roles.logs-custom>`. 
      For more information about log rotation, see :eb-dg:`Configuring Containers with Elastic Beanstalk 
-     <using-features.managing.container>` For more information about using |IAM| roles
+     <using-features.managing.container>`. For more information about using |IAM| roles
      with |EB|, see :eb-dg:`Using IAM Roles with Elastic Beanstalk <AWSHowTo.iam.roles.aeb>`.
 
      The credentials you use for deployment must have permission to create the default |IAM| 

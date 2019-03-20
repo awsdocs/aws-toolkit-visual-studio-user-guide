@@ -46,5 +46,5 @@ For more information about |EB|, go to the :eb-dg:`Elastic Beanstalk documentati
     Custom Deployments (Traditional) <deployment-beanstalk-custom>
     Custom Deployments (.NET Core) <deployment-beanstalk-custom-netcore>
     Multiple Application Support <deployment-beanstalk-multiple-application>
-    Publish to AWS Wizard (Legacy) <deployment-beanstalk-legacy>
+    Deploying to Elastic Beanstalk (Legacy) <deployment-beanstalk-legacy>
     deployment-cloudform

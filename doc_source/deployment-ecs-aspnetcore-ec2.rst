@@ -8,7 +8,7 @@
    either express or implied. See the License for the specific language governing permissions and
    limitations under the License.
 
-.. _tkv-deploy-container-netcore:
+.. _deployment-ecs-aspnetcore-ec2:
 
 ################################################
 Deploying an ASP.NET Core 2.0 App to |ECS| (EC2)
@@ -31,7 +31,7 @@ Before you publish your container
 Before using the :guilabel:`Publish Container to AWS` to deploy your ASP.NET Core 2.0  
 application:
 
-* `Specify your AWS credentials <deployment-ecs-specify-credentials>`_ and 
+* :ref:`Specify your AWS credentials <deployment-ecs-specify-credentials>`_ and 
   :ECS-dg:`get setup with Amazon ECS <get-set-up-for-amazon-ecs>`. 
 
 * `Install Docker <https://docs.docker.com/engine/installation>`_. You have a few

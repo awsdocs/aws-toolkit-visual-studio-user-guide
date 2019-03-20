@@ -8,7 +8,7 @@
    either express or implied. See the License for the specific language governing permissions and
    limitations under the License.
 
-.. _tkv-deploy-container-netcore:
+.. _deployment-ecs-aspnetcore-fargate:
 
 ####################################################
 Deploying an ASP.NET Core 2.0 App to |ECS| (Fargate)
@@ -31,7 +31,7 @@ Before you publish your container
 Before using the :guilabel:`Publish Container to AWS` wizard to deploy your ASP.NET Core 2.0  
 application:
 
-* `Specify your AWS credentials <deployment-ecs-specify-credentials>`_ and 
+* :ref:`deployment-ecs-specify-credentials`_ and 
   :ECS-dg:`get setup with Amazon ECS <get-set-up-for-amazon-ecs>`. 
 
 * `Install Docker <https://docs.docker.com/engine/installation>`_. You have a few
@@ -97,7 +97,7 @@ provide a name for your new cluster.
 **Launch Type** - Choose :guilabel:`FARGATE`. 
 
 **CPU Maximum (vCPU)** - Choose the maximum amount of compute capacity needed for your application. To see 
-allowed ranges of CPU and Memory values, see :ECS-dg:`task size <task_definition_parameters.html#task_size>`.
+allowed ranges of CPU and Memory values, see :ECS-dg:`task size <task_definition_parameters>`.
 
 **Memory Maximum (GB)** - Select the maximum amount of memory available to your application. 
 
@@ -110,7 +110,7 @@ see :VPC-ug:`default VPC and default subnets <default-vpc>`.
 A security group acts as a firewall for associated Amazon EC2 instances, controlling both inbound and outbound 
 traffic at the instance level. 
 
-:VPC-ug:`Default security groups <VPC_SecurityGroups#DefaultSecurityGroup>` are configured to allow 
+:VPC-ug:`Default security groups <VPC_SecurityGroups>` are configured to allow 
 inbound traffic from instances assigned to the same security group and all outbound IPv4 traffic. 
 You need outbound allowed so the service can reach the container repository. 
 
@@ -159,7 +159,7 @@ type in a port number. The default, port :code:`80`, is appropriate for most web
 **Path Pattern** - The load balancer will use path-based routing. Accept the default 
 :code:`/` or provide a different pattern. The path pattern is case-sensitive, 
 can be up to 128 characters in length, and contains a  
-`select set of characters <http://docs.aws.amazon.com/ElasticLoadBalancing/latest/application/load-balancer-listeners#path-conditions>`_.
+`select set of characters <https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-listeners.html#path-conditions>`_.
 
 **Health Check Path** - The ping path that is the destination on the targets for health checks.
 By default, it is :code:`/`. Enter a different path if needed. If the path you enter is 

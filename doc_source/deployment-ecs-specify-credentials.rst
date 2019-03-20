@@ -8,10 +8,10 @@
    either express or implied. See the License for the specific language governing permissions and
    limitations under the License.
 
-.. _tkv-ecs-deploy-credentials:
+.. _deployment-ecs-specify-credentials:
 
 ############################################################
-Specify AWS  Credentials for Your ASP.NET Core 2 Application
+Specify AWS Credentials for Your ASP.NET Core 2 Application
 ############################################################
 
 .. meta::

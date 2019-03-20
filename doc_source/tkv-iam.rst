@@ -245,7 +245,7 @@ the |IAM| role associated with an |EC2| instance, go to the AWS developer guides
 :sdk-java-dg:`Java <java-dg-hands-off-secret-management>`, 
 :sdk-net-dg:`.NET <net-dg-hands-off-secret-management>`, 
 :sdk-php-dg-v3:`PHP <php-dg-hands-off-secret-management>`, and 
-:sdk-ruby1-dg:`Ruby <setup-config>`.
+:sdk-ruby3-dg:`Ruby <setup-config>`.
 
 *To create an IAM role*
 

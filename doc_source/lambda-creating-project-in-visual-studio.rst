@@ -28,7 +28,7 @@ Create a Visual Studio .NET Core |LAM| Project
 ==============================================
 
 #. Open Visual Studio, and on the :guilabel:`File` menu, choose :guilabel:`New`, :guilabel:`Project`.
-#. In the :guilabel:`Installed` pane, choose  Visual C# and the :guilabel:`AWS Lambda  Project (.NET Core)``
+#. In the :guilabel:`Installed` pane, choose  Visual C# and the :guilabel:`AWS Lambda  Project (.NET Core)`
    template.
 
    There are two types of project to choose from:
