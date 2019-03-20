@@ -31,7 +31,7 @@ Before you publish your container
 Before using the :guilabel:`Publish Container to AWS` wizard to deploy your ASP.NET Core 2.0  
 application:
 
-* :ref:`deployment-ecs-specify-credentials`_ and 
+* :ref:`deployment-ecs-specify-credentials` and 
   :ECS-dg:`get setup with Amazon ECS <get-set-up-for-amazon-ecs>`. 
 
 * `Install Docker <https://docs.docker.com/engine/installation>`_. You have a few
