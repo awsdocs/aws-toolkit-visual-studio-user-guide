@@ -80,8 +80,8 @@ To uninstall the |TVS|, you must uninstall the |TFW|.
 
 1. In Control Panel, open :guilabel:`Programs and Features`.
 
-  .. tip:: To open :guilabel:`Programs and Features` directly, from a command prompt, run the following:
-     :code:`appwiz.cpl`
+   .. tip:: To open :guilabel:`Programs and Features` directly, from a command prompt, run the following:
+      :code:`appwiz.cpl`
 
 2. Choose |TFW|, and then choose :guilabel:`Uninstall`.
 
