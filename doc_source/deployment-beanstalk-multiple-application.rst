@@ -83,10 +83,10 @@ application bundle.
    $appBundle = [System.IO.Path]::Combine($publishFolder, "app-bundle.zip")
    
    If (Test-Path $publishWorkspace){
-   	Remove-Item $publishWorkspace -Confirm:$false -Force
+     Remove-Item $publishWorkspace -Confirm:$false -Force
    }
    If (Test-Path $appBundle){
-   	Remove-Item $appBundle -Confirm:$false -Force
+     Remove-Item $appBundle -Confirm:$false -Force
    }
 
 Once you've created the folder, it is time to get the frontend ready. As with the deployment wizard, 
