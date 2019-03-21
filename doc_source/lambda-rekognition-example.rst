@@ -196,8 +196,6 @@ Examine the Files
    new .NET Core CLI. To use it, navigate to the function's project directory and type *dotnet lambda
    help*.
 
-   .. code-block:: JavaScript
-
 An important field is the function handler. This indicates to |LAM| the method to call
 in the code in response to the function we're invoking. The format of this field is
 :code:`<assembly-name>::<full-type-name>::<method-name>`. Be sure to include the namespace with the
