@@ -9,6 +9,12 @@
    limitations under the License.
 
 #####################################
+WARNING: Archived
+#####################################
+The files in this folder and sub-folders have been archived in favor of a more consistant approach.
+See the actual files one folder leve up from here. (https://github.com/awsdocs/aws-toolkit-visual-studio-user-guide)
+
+#####################################
 aws-toolkit-visual-studio-user-guide
 #####################################
 
