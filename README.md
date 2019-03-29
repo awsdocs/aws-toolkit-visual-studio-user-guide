@@ -6,7 +6,7 @@ This repository contains source content for the official [AWS Toolkit for Visual
 
 ## Recent Updates
 
-You can find out when this guide has had major updates and what those updates were by looking in the [Document History](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/tkv-document-history.html) topic.
+You can find out when this guide has had major updates and what those updates were by looking in the [Document History](doc_source/tkv-document-history.md) topic.
 
 ## Reporting issues
 
