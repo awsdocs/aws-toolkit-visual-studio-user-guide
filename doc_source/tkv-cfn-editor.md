@@ -7,7 +7,7 @@ The Toolkit for Visual Studio includes an AWS CloudFormation template editor and
 + Menu items to perform common actions for your template from Visual Studio: deploying the template, estimating the cost of your template, and formatting your template\.
 
 **Topics**
-+ [Creating a AWS CloudFormation Template Project in Visual Studio](tkv-cfn-editor-new-project.md)
++ [Creating an AWS CloudFormation Template Project in Visual Studio](tkv-cfn-editor-new-project.md)
 + [Deploying a AWS CloudFormation Template in Visual Studio](tkv-cfn-editor-deploy-template.md)
 + [Estimating the Cost of Your AWS CloudFormation Template Project in Visual Studio](tkv-cfn-editor-estimate-cost.md)
 + [Formatting a AWS CloudFormation Template in Visual Studio](tkv-cfn-editor-format.md)

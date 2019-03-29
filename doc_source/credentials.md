@@ -16,7 +16,7 @@ Credential profiles created using the Toolkit for Visual Studio are saved only t
 
 To add a profile to the SDK Credential Store:
 
-1. Open AWS Explorer in Visual Studio\. On the **View** menu, choose **AWS Explorer**\. Or press `Ctrl+K`, and then press `A`\.
+1. Open AWS Explorer in Visual Studio\. On the **View** menu, choose **AWS Explorer**\. Or press `Ctrl+K`, `A`\.
 
 1. Choose the **New Account Profile** icon to the right of the **Profile** list\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/add_profile.png)
@@ -24,7 +24,7 @@ To add a profile to the SDK Credential Store:
    The New Account Profile dialog box opens\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/tkv-account-add.png)
 
-1. To create a credential profile, enter the following data into the dalog box\. When you create an account in the AWS Management Console, or create an IAM user and set up credentials for the user, you are prompted to download and save the generated credentials\. You can choose **Import from cvs file** to browse to the file containing the access and secret key credentials, and automatically import them into the dialog box\.  
+1. To create a credential profile, enter the following data into the dialog box\. When you create an account in the AWS Management Console, or create an IAM user and set up credentials for the user, you are prompted to download and save the generated credentials\. You can choose **Import from cvs file** to browse to the file containing the access and secret key credentials, and automatically import them into the dialog box\.  
 ** **Profile Name** **  
 \(Required\) The profile's display name\.  
 ** **Access Key ID** **  
@@ -47,13 +47,13 @@ After you add the first profile, you can also do the following:
 
   For example, if you have [rotated an IAM user's credentials](https://docs.aws.amazon.com/general/latest/gr/aws-access-keys-best-practices.html)—a recommended practice—you can edit the profile to update the user's credentials in the SDK Credential Store\. For more information, see [IAM Credential Rotation](http://aws.amazon.com/blogs/developer/iam-credential-rotation-access-key-management-for-net-applications-part-3/)\.
 
-You can also add profiles to the SDK Credential Store when you create an AWS project\. Before Visual Studio creates the project files, it displays the **AWS Access Credentials** dialog box\. You can choose an existing profile from the SDK Credential Store or create one\.
+You can also add profiles to the SDK Credential Store when you create certain AWS projects\. Before Visual Studio creates the project files, it displays the **AWS Access Credentials** dialog box\. You can choose an existing profile from the SDK Credential Store or create one\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/specify_creds.png)
 
 ## Adding a profile to the AWS credentials profile file<a name="adding-a-profile-to-the-aws-credentials-profile-file"></a>
 
-You can set your credentials in the AWS credentials profile file on your local system, located at `C:\Users\USERNAME\.aws\credentials` on Windows
+You can set your credentials in the AWS credentials profile file on your local system, located at `C:\Users\USERNAME\.aws\credentials` on Windows\.
 
 This file should contain lines in the following format:
 

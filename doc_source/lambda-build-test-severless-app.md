@@ -13,14 +13,31 @@ For prerequisites and information about setting up the AWS Toolkit for Visual St
 
 1. Open Visual Studio, and on the **File** menu, choose **New**, **Project**\.
 
-1. In the **Installed** pane, choose Visual C\# and the Lambda Project template\.
+1. **For Visual Studio 2017**:
+
+   In the **New Project** dialog box, expand **Installed**, expand **Visual C\#**, and select **AWS Lambda**\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/CreateNewProject-06-Serverless-Lambda-VS2017.png)
+
+   **For Visual Studio 2019**:
+
+   In the **New Project** dialog box, ensure that the **Language**, **Platform**, and **Project type** drop\-down boxes are set to "All \.\.\." and type *aws lambda* in the **Search** field\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/CreateNewProject-06-Serverless-Lambda-VS2019.png)
 
    There are two types of project to choose from:
    + AWS Lambda projects for creating a project to develop and deploy an individual Lambda function\.
-   + AWS Serverless Applications projects for creating Lambda functions with a serverless AWS CloudFormation template\. AWS serverless applications enable you to define more than just the function\. For example, you can simultaneously create a database, add IAM roles, etc\., with serverless deployment\. AWS serverless applications also enable you to deploy multiple functions at one time\.  
-![\[Project types for AWS Lambda Serverless projects\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/serverless-new-project.png)
+   + AWS Serverless Applications projects for creating Lambda functions with a serverless AWS CloudFormation template\. AWS serverless applications enable you to define more than just the function\. For example, you can simultaneously create a database, add IAM roles, etc\., with serverless deployment\. AWS serverless applications also enable you to deploy multiple functions at one time\.
 
-1. Select **AWS Serverless Application with Tests \(\.NET Core\)** and name it *`Blogger`*\. The **Select Blueprint** page is displayed showing several Lambda function templates\.  
+1. Select the **AWS Serverless Application with Tests \(\.NET Core \- C\#\)** template\.
+
+1. **For Visual Studio 2017**:
+
+   Enter "Blogger" for the **Name**, enter the desired **Location**, etc\.,and then click **OK**\.
+
+   **For Visual Studio 2019**:
+
+   Click **Next**\. In the next dialog, enter "Blogger" for the **Name**, enter the desired **Location**, etc\., and then click **Create**\.
+
+1. The **Select Blueprint** page shows several Lambda function templates\.  
 ![\[Blueprints for an AWS Lambda Serverless project\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/serverless-blueprints.png)
 
 1. Choose the **Blog API using DynamoDB** blueprint, and then choose **Finish** to create the Visual Studio project\.

@@ -1,8 +1,29 @@
-# Document History<a name="tkv-document-history"></a>
+# Document History of the *AWS Toolkit for Visual Studio User Guide*<a name="tkv-document-history"></a>
 
-The following table describes the important changes since the last release of the *AWS Toolkit for Visual Studio User Guide*\.
+ *Last documentation update:* Mar 28, 2019
 
- *Last documentation update:* Mar 22, 2019
+## Document History<a name="doc-history-recent"></a>
+
+The following table describes the important recent changes of the *AWS Toolkit for Visual Studio User Guide*\. For notification about updates to this documentation, you can subscribe to an [RSS feed](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/amazon-toolkit-for-visual-studio-guide-doc-history.rss)\.
+
+| Change | Description | Date | 
+| --- |--- |--- |
+| [Support for Visual Studio 2019](setup.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
+| [Support for Visual Studio 2019](deployment-ecs-aspnetcore-fargate.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
+| [Support for Visual Studio 2019](deployment-ecs-aspnetcore-ec2.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
+| [Support for Visual Studio 2019](tkv-cfn-editor-new-project.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
+| [Support for Visual Studio 2019](lambda-creating-project-in-visual-studio.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
+| [Support for Visual Studio 2019](lambda-build-test-severless-app.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
+| [Support for Visual Studio 2019](lambda-rekognition-example.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
+| [Detailed Views of Container Service](tkv-ecs.md) | Added information about the detailed views of Amazon Elastic Container Service clusters and container repositories that are provided by AWS Explorer\. | February 16, 2018 | 
+| [Deploying to Amazon EC2 Container Service](deployment-ecs.md) | Added information about deploying to Amazon EC2 container service\. | February 16, 2018 | 
+| [Deploying Container Service using Fargate](deployment-ecs-aspnetcore-fargate.md) | Added information about how to deploy a containerized ASP\.NET Core 2\.0 application targeting Linux through Amazon ECS using the Fargate launch type\. | February 16, 2018 | 
+| [Deploying Container Service using EC2](deployment-ecs-aspnetcore-ec2.md) | Added information about how to deploy a containerized ASP\.NET Core 2\.0 application targeting Linux through Amazon ECS using the EC2 launch type\. | February 16, 2018 | 
+| [Credentials for Deploying to Amazon EC2 Container Service](deployment-ecs-specify-credentials.md) | Added information about how to specify credentials when deploying to Amazon EC2 container service\. | February 16, 2018 | 
+
+## Earlier Updates<a name="doc-history-earlier"></a>
+
+The following table describes the important earlier changes of the *AWS Toolkit for Visual Studio User Guide*\.
 
 
 ****  

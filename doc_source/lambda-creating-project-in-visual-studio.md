@@ -8,12 +8,29 @@ For prerequisites and information about setting up the AWS Toolkit for Visual St
 
 1. Open Visual Studio, and on the **File** menu, choose **New**, **Project**\.
 
-1. In the **Installed** pane, choose Visual C\# and the **AWS Lambda Project \(\.NET Core\)** template\.
+1. **For Visual Studio 2017**:
+
+   In the **New Project** dialog box, expand **Installed**, expand **Visual C\#**, and select **AWS Lambda**\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/CreateNewProject-05-Core-Lambda-VS2017.png)
+
+   **For Visual Studio 2019**:
+
+   In the **New Project** dialog box, ensure that the **Language**, **Platform**, and **Project type** drop\-down boxes are set to "All \.\.\." and type *aws lambda* in the **Search** field\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/CreateNewProject-05-Core-Lambda-VS2019.png)
 
    There are two types of project to choose from:
    + AWS Lambda projects for creating a project to develop and deploy an individual Lambda function\.
-   + AWS Serverless Applications projects for creating Lambda functions with a serverless AWS CloudFormation template\. AWS serverless applications enable you to define more than just the function\. For example, you can simultaneously create a database, add IAM roles, etc\., with serverless deployment\. AWS serverless applications also enable you to deploy multiple functions at one time\.  
-![\[Project types for AWS Lambda projects\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/ProjectList2.png)
+   + AWS Serverless Applications projects for creating Lambda functions with a serverless AWS CloudFormation template\. AWS serverless applications enable you to define more than just the function\. For example, you can simultaneously create a database, add IAM roles, etc\., with serverless deployment\. AWS serverless applications also enable you to deploy multiple functions at one time\.
+
+1. Select the **AWS Lambda Project \(\.NET Core \- C\#\)** template\.
+
+1. **For Visual Studio 2017**:
+
+   Enter the desired **Name**, **Location**, etc\., for your template project, then click **OK**\.
+
+   **For Visual Studio 2019**:
+
+   Click **Next**\. In the next dialog, enter the desired **Name**, **Location**, etc\., for your template project, then click **Create**\.
 
 1. After you select the project type, choose a blueprint\. For **AWS Lambda Project \(\.NET Core\)**, the **Select Blueprint** page shows several Lambda function templates\.  
 ![\[Blueprints for an AWS Lambda project\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/blueprints.png)

@@ -8,7 +8,7 @@ Before using the **Publish Container to AWS** to deploy your ASP\.NET Core 2\.0 
 +  [Specify your AWS credentials](deployment-ecs-specify-credentials.md) and [get setup with Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/get-set-up-for-amazon-ecs.html)\.
 +  [Install Docker](https://docs.docker.com/engine/installation)\. You have a few different installation options including [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)\.
 +  [Create an Amazon ECS cluster](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-cluster.html) based on the needs of your web application\. It only takes a few steps\.
-+ Create \(or open\) an ASP\.NET Core 2\.0 containerized app targeting Linux project in Visual Studio 2017\.
++ In Visual Studio, create \(or open\) a project for an ASP\.NET Core 2\.0 containerized app targeting Linux\.
 
 ## Accessing the Publish Container to AWS wizard<a name="tkv-deployment-ecs-netcore-accessing"></a>
 
@@ -30,7 +30,7 @@ You can also select **Publish Container to AWS** on the Visual Studio Build menu
 
  **Deployment** \- Select **Service on an ECS Cluster**\. Use this deployment option when your application is meant to be long\-running \(like an ASP\.NET Core 2\.0 web application\)\.
 
- **Save settings to aws\-docker\-tools\-defaults\.json and configure project for command line deployment** \- Check this option if you want the flexibility of deploying from the command line\. Use `dotnet ecs deploy` from your project directory to deploy and `dotnet ecs publish` the container\.
+ **Save settings to `aws-docker-tools-defaults.json` and configure project for command line deployment** \- Check this option if you want the flexibility of deploying from the command line\. Use `dotnet ecs deploy` from your project directory to deploy and `dotnet ecs publish` the container\.
 
 ## Launch Configuration page<a name="tkv-deploy-ecs-launch-config"></a>
 

@@ -8,10 +8,27 @@ For prerequisites and information about setting up the AWS Toolkit for Visual St
 
 1. Open Visual Studio, and on the **File** menu, choose **New**, **Project**\.
 
-1. In the **Installed** pane, choose Visual C\# and the AWS Lambda Project template\. Choose AWS Lambda Project with Tests \(\.NET Core\), name the project ImageRekognition, and then choose **OK**\.  
-![\[Project types for AWS Lambda projects\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/ProjectList.png)
+1. **For Visual Studio 2017**:
 
-1. After you select the project type, choose a blueprint\. Blueprints provide starting code to help you write your Lambda functions\. For this example, choose the **Detect Image Labels** blueprint\.
+   In the **New Project** dialog box, expand **Installed**, expand **Visual C\#**, and select **AWS Lambda**\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/CreateNewProject-07-Lambda-Rekognition-VS2017.png)
+
+   **For Visual Studio 2019**:
+
+   In the **New Project** dialog box, ensure that the **Language**, **Platform**, and **Project type** drop\-down boxes are set to "All \.\.\." and type *aws lambda* in the **Search** field\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/CreateNewProject-07-Lambda-Rekognition-VS2019.png)
+
+1. Select the **AWS Lambda Project with Tests \(\.NET Core \- C\#\)** template\.
+
+1. **For Visual Studio 2017**:
+
+   Name the project "ImageRekognition", enter the desired **Location**, etc\., and then click **OK**\.
+
+   **For Visual Studio 2019**:
+
+   Click **Next**\. In the next dialog, enter "ImageRekognition" for the **Name**, enter the desired **Location**, etc\., and then click **Create**\.
+
+1. Choose a blueprint\. Blueprints provide starting code to help you write your Lambda functions\. For this example, choose the **Detect Image Labels** blueprint\.
 
    This blueprint provides code for listening to Amazon S3 events and uses Amazon Rekognition to detect labels and add them to the S3 object as tags\.  
 ![\[Blueprints for an AWS Lambda project\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/lambda-blueprints.png)

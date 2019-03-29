@@ -14,11 +14,11 @@ To install and configure the Toolkit for Visual Studio, you must:
   We recommend that you install the latest service packs and updates\.
 
 **Note**  
-The Toolkit for Visual Studio is still available if you're using Visual Studio versions 2008, 2010, and 2012 \(including Express editions where available\)\. However, it is not supported\. For Express editions, the installation includes only the AWS project templates and the [standalone deployment tool](deployment-tool.md#tkv-deployment-tool)\. Visual Studio Express editions don't support third\-party extensions, such as AWS Explorer\. Find links to these older versions of the Toolkit for Visual Studio at the bottom of this page\.
+The Toolkit for Visual Studio is still available if you're using Visual Studio versions 2008, 2010, and 2012 \(including Express editions where available\)\. However, it is not supported\. For Express editions, the installation includes only the AWS project templates and the [standalone deployment tool](deployment-tool.md#tkv-deployment-tool)\. Visual Studio Express editions don't support third\-party extensions, such as AWS Explorer\. Find links to these older versions of the Toolkit for Visual Studio below in [Older Versions of the Toolkit for Visual Studio](#older-versions)\.
 
 ## Install the Toolkit for Visual Studio<a name="install"></a>
 
-The Toolkit for Visual Studio 2017 is distributed in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017)\. You can also install and update the toolkit using the Extensions and Updates dialog within Visual Studio\.
+The Toolkit for Visual Studio for Visual Studio 2017 and Visual Studio 2019 is distributed in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017)\. You can also install and update the toolkit using the Extensions and Updates dialog within Visual Studio\.
 
 The Toolkit for Visual Studio 2013 and 2015 versions are part of the AWS Tools for Windows\. You can install the AWS Tools for Windows for these versions as follows\.
 
@@ -37,7 +37,7 @@ To uninstall the Toolkit for Visual Studio, you must uninstall the AWS Tools for
 
 1. In Control Panel, open **Programs and Features**\.
 **Note**  
-To open **Programs and Features** directly, from a command prompt, run the following: `appwiz.cpl` 
+To open **Programs and Features** directly, run `appwiz.cpl` from a command prompt or the Windows **Run** dialog\. 
 
 1. Choose AWS Tools for Windows, and then choose **Uninstall**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/uninstall.png)
@@ -48,6 +48,6 @@ Uninstalling the AWS Tools for Windows doesn't remove the Samples directory\. Th
 
 ## Older Versions of the Toolkit for Visual Studio<a name="older-versions"></a>
 
- **Visual Studio 2008**—Install the Toolkit for Visual Studio for Visual Studio 2008 from [https://sdk\-for\-net\.amazonwebservices\.com/latest/AWSToolkitForVisualStudio2008\.msi](https://sdk-for-net.amazonwebservices.com/latest/AWSToolkitForVisualStudio2008.msi)\.
+ **Visual Studio 2008**—Install the Toolkit for Visual Studio 2008 from [https://sdk\-for\-net\.amazonwebservices\.com/latest/AWSToolkitForVisualStudio2008\.msi](https://sdk-for-net.amazonwebservices.com/latest/AWSToolkitForVisualStudio2008.msi)\.
 
  **Visual Studio 2010 and 2012**—Install the Toolkit for Visual Studio for Visual Studio 2010 and 2012 from [https://sdk\-for\-net\.amazonwebservices\.com/latest/AWSToolkitForVisualStudio2010\-2012\.msi](https://sdk-for-net.amazonwebservices.com/latest/AWSToolkitForVisualStudio2010-2012.msi)\.
