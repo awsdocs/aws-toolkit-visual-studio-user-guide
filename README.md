@@ -2,11 +2,11 @@
 
 The open source version of the AWS Toolkit for Visual Studio User Guide
 
-This repository contains source content for the official AWS Toolkit for Visual Studio User Guide.
+This repository contains source content for the official [AWS Toolkit for Visual Studio User Guide](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/welcome.html).
 
 ## Recent Updates
 
-You can find out when this guide has had major updates and what those updates were by looking in the [Document History](/tkv-document-history.md "Document History") topic.
+You can find out when this guide has had major updates and what those updates were by looking in the [Document History](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/tkv-document-history.html) topic.
 
 ## Reporting issues
 
