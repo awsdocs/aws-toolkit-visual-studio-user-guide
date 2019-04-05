@@ -1,10 +1,10 @@
-# Document History of the *AWS Toolkit for Visual Studio User Guide*<a name="tkv-document-history"></a>
+# Document History of the AWS Toolkit for Visual Studio User Guide<a name="tkv-document-history"></a>
 
- *Last documentation update:* Mar 28, 2019
+ *Last documentation update:* March 28, 2019
 
 ## Document History<a name="doc-history-recent"></a>
 
-The following table describes the important recent changes of the *AWS Toolkit for Visual Studio User Guide*\. For notification about updates to this documentation, you can subscribe to an [RSS feed](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/amazon-toolkit-for-visual-studio-guide-doc-history.rss)\.
+The following table describes the important recent changes of the AWS Toolkit for Visual Studio User Guide\. For notification about updates to this documentation, you can subscribe to an [RSS feed](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/amazon-toolkit-for-visual-studio-guide-doc-history.rss)\.
 
 | Change | Description | Date | 
 | --- |--- |--- |
@@ -23,7 +23,7 @@ The following table describes the important recent changes of the *AWS Toolkit f
 
 ## Earlier Updates<a name="doc-history-earlier"></a>
 
-The following table describes the important earlier changes of the *AWS Toolkit for Visual Studio User Guide*\.
+The following table describes the important earlier changes of the AWS Toolkit for Visual Studio User Guide\.
 
 
 ****  
@@ -33,4 +33,4 @@ The following table describes the important earlier changes of the *AWS Toolkit 
 |  Added ASP\.NET Core Details  |  AWS Elastic Beanstalk deployment wizard now supports ASP\.NET Core applications\. See [Deploying an ASP\.NET Core Application to Elastic Beanstalk](deployment-beanstalk-netcore.md#tkv-deploy-beanstalk-netcore) for details\.  |  July 25, 2016  | 
 |  Revised deployment wizards  |  This release introduces a new **Publish to Elastic Beanstalk** wizard\. For more information, see [Deploying to Elastic Beanstalk](deployment-beanstalk.md#tkv-deploy-beanstalk)\. With the introduction of this new wizard, the **Publish to Amazon Web Services** wizard has been moved to legacy status\. For more information, see [Deploying to Elastic Beanstalk \(Legacy\)](deployment-beanstalk-legacy.md#tkv-deploy-beanstalk-legacy) and [Deploying to AWS CloudFormation \(Legacy\)](deployment-cloudform.md#tkv-deploy-cloudform)\.  |  December 17, 2014  | 
 |  Support for Amazon VPC  |  This release adds support for Amazon Virtual Private Cloud\.  |  April 4, 2013  | 
-|  New release  |  This is version 3\.0 of the *AWS Toolkit for Visual Studio User Guide*\.  |  June 8, 2012  | 
+|  New release  |  This is version 3\.0 of the AWS Toolkit for Visual Studio User Guide\.  |  June 8, 2012  | 

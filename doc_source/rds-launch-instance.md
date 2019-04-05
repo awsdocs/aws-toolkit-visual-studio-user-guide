@@ -25,9 +25,9 @@ With AWS Explorer, you can launch an instance of any of the database engines sup
 ** *DB Instance Version* **  
 Choose the version of the database engine you would like to use\. If only one version is supported, it is selected for you\.  
 ** *DB Instance Class* **  
-Choose the instance class for the database engine\. Pricing for instance classes varies\. For more information, see [Amazon RDS Pricing](https://aws.amazon.com/rds/pricing/)\.  
+Choose the instance class for the database engine\. Pricing for instance classes varies\. For more information, see [Amazon RDS Pricing](https://aws.amazon.com/rds/pricing)\.  
 ** *Perform a multi AZ deployment* **  
-Select this option to create a multi\-AZ deployment for enhanced data durability and availability\. Amazon RDS provisions and maintains a standby copy of your database in a different Availability Zone for automatic failover in the event of a scheduled or unplanned outage\. For information about pricing for multi\-AZ deployments, see the pricing section of the [Amazon RDS](https://aws.amazon.com/rds/) detail page\. This option is not supported for Microsoft SQL Server\.  
+Select this option to create a multi\-AZ deployment for enhanced data durability and availability\. Amazon RDS provisions and maintains a standby copy of your database in a different Availability Zone for automatic failover in the event of a scheduled or unplanned outage\. For information about pricing for multi\-AZ deployments, see the pricing section of the [Amazon RDS](https://aws.amazon.com/rds) detail page\. This option is not supported for Microsoft SQL Server\.  
 ** *Upgrade minor versions automatically* **  
 Select this option to have AWS automatically perform minor version updates on your RDS instances for you\.
 
