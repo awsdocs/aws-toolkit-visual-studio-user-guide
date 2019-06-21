@@ -18,20 +18,36 @@ The Toolkit for Visual Studio is still available if you're using Visual Studio v
 
 ## Install the Toolkit for Visual Studio<a name="install"></a>
 
-The Toolkit for Visual Studio for Visual Studio 2017 and Visual Studio 2019 is distributed in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017)\. You can also install and update the toolkit using the Extensions and Updates dialog within Visual Studio\.
+------
+#### [ Install for Visual Studio 2017 and Visual Studio 2019 ]
 
-The Toolkit for Visual Studio 2013 and 2015 versions are part of the AWS Tools for Windows\. You can install the AWS Tools for Windows for these versions as follows\.
+The Toolkit for Visual Studio for Visual Studio 2017 and Visual Studio 2019 is distributed in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017)\. You can also install and update the toolkit within Visual Studio by using **Tools** ≫ **Extensions and Updates** \(Visual Studio 2017\) or **Extensions** ≫ **Manage Extensions** \(Visual Studio 2019\)\.
+
+------
+#### [ Install for Visual Studio 2013 and Visual Studio 2015 ]
+
+The Toolkit for Visual Studio for Visual Studio 2013 and Visual Studio 2015 are part of the AWS Tools for Windows\. You can install the AWS Tools for Windows for these versions as follows\.
 
 1. Navigate to the page [AWS Toolkit for Visual Studio](https://aws.amazon.com/visualstudio)\.
 
-1. In the **Download** section, choose Toolkit for Visual Studio 2013\-2015 to download the installer\.
+1. In the **Download** section, choose **Toolkit for Visual Studio 2013\-2015** to download the installer\.
 
 1. To start the installation, run the downloaded installer and follow the instructions\.
+
+------
 
 **Note**  
 By default, the Toolkit for Visual Studio is installed in the Program Files directory, which requires administrator privileges\. To install the Toolkit for Visual Studio as a non\-administrator, specify a different installation directory\.
 
 ## Uninstall the Toolkit for Visual Studio<a name="uninstall"></a>
+
+------
+#### [ Uninstall for Visual Studio 2017 and Visual Studio 2019 ]
+
+Uninstall the Toolkit for Visual Studio from within Visual Studio by using **Tools** ≫ **Extensions and Updates** \(Visual Studio 2017\) or **Extensions** ≫ **Manage Extensions** \(Visual Studio 2019\)\.
+
+------
+#### [ Uninstall for Visual Studio 2013 and Visual Studio 2015 ]
 
 To uninstall the Toolkit for Visual Studio, you must uninstall the AWS Tools for Windows\.
 
@@ -45,6 +61,8 @@ To open **Programs and Features** directly, run `appwiz.cpl` from a command prom
 1. If prompted, choose **Yes**\.
 
 Uninstalling the AWS Tools for Windows doesn't remove the Samples directory\. This directory is preserved in case you have modified the samples\. You have to manually remove this directory\.
+
+------
 
 ## Older Versions of the Toolkit for Visual Studio<a name="older-versions"></a>
 

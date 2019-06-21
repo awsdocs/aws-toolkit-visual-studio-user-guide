@@ -8,6 +8,7 @@ The following table describes the important recent changes of the AWS Toolkit fo
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Providing AWS Credentials](credentials.md) | Updated with information about creating credential profiles in the shared AWS credentials file\. | June 20, 2019 | 
 | [Support for Visual Studio 2019](setup.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
 | [Support for Visual Studio 2019](deployment-ecs-aspnetcore-fargate.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
 | [Support for Visual Studio 2019](deployment-ecs-aspnetcore-ec2.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
