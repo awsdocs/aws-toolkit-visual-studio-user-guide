@@ -3,7 +3,7 @@
 Before you can use the Toolkit for Visual Studio, you must provide one or more sets of valid AWS credentials\. These credentials allow you to access your AWS resources through the Toolkit for Visual Studio\. They're also used to sign programmatic web services requests so that AWS can verify that the request comes from an authorized source\.
 
 **Important**  
-AWS credentials consist of an access key ID and secret access key\. We recommend that you do not use your account's root credentials\. Instead, [create one or more IAM users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html), and then use those credentials\. For more information, see [Using IAM Users](http://aws.amazon.com/blogs/developer/using-iam-users-access-key-management-for-net-applications-part-2/) and [Best Practices for Managing AWS Access Keys](https://docs.aws.amazon.com/general/latest/gr/aws-access-keys-best-practices.html)\.
+AWS credentials consist of an access key ID and secret access key\. We recommend that you do NOT use your account's root credentials\. Instead, [create one or more IAM users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html), and then use those credentials\. For additional information, see [Using IAM Users](http://aws.amazon.com/blogs/developer/using-iam-users-access-key-management-for-net-applications-part-2/) and [Best Practices for Managing AWS Access Keys](https://docs.aws.amazon.com/general/latest/gr/aws-access-keys-best-practices.html)\.
 
 The Toolkit for Visual Studio supports multiple sets of credentials from any number of accounts\. Each set is referred to as a *profile*\. When you add a profile to the Toolkit for Visual Studio, the credentials can be stored using two mechanisms:
 + Encrypted and stored in the SDK Credential Store\.
@@ -30,10 +30,12 @@ To add a profile to the SDK Credential Store or the shared AWS credentials file:
 
 1. To create a credential profile, enter the following data into the dialog box and then choose **OK**\.
 **Note**  
-When you create an account in the AWS Management Console or when you [create an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) and set up credentials for the user, you are given the opportunity to download and save the generated credentials as a `.csv` file\. \(This is NOT the shared AWS credentials file\.\)  
+When you create an account in the AWS Management Console, or when you [create an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) and set up credentials for the user, you are given the opportunity to download and save the generated credentials as a `.csv` file\. \(This is NOT the shared AWS credentials file\.\)  
 If you have downloaded this file, you can choose **Import from csv file\.\.\.** to browse for the file and automatically import the access key ID and secret access key into the dialog box\.  
 ** **Profile Name** **  
 \(Required\) The profile's display name\.  
+**Storage Location**  
+\(Required\) Choose whether to use the SDK Credential Store or the shared AWS credentials file\.  
 ** **Access Key ID** **  
 \(Required\) The access key ID\.  
 ** **Secret Access Key** **  
