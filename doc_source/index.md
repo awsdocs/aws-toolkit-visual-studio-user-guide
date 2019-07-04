@@ -14,7 +14,7 @@ Amazon's trademarks and trade dress may not be used in
 
 -----
 ## Contents
-+ [Using the AWS Toolkit for Visual Studio](welcome.md)
++ [AWS Toolkit for Visual Studio](welcome.md)
 + [Setting Up the AWS Toolkit for Visual Studio](getting-set-up.md)
    + [Setting Up the AWS Toolkit for Visual Studio](setup.md)
    + [Providing AWS Credentials](credentials.md)
