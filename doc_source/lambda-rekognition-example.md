@@ -43,7 +43,7 @@ You might notice when you first create your projects that Visual Studio doesn't 
 
 ## Examine the Files<a name="examine-the-files"></a>
 
-1. Open the `1Function.cs` file and look at the code that came with the blueprint\. The first segment of code is the assembly attribute that is added to the top of the file\.
+1. Open the `Function.cs` file and look at the code that came with the blueprint\. The first segment of code is the assembly attribute that is added to the top of the file\.
 
    ```
    // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
