@@ -258,6 +258,6 @@ Keep the following in mind when you attempt to update a deployment:
 + You cannot use `updateStack` to change the region for your deployment\. However, you can change the Availability Zones for your deployment\.
 + If you use `updateStack` to transition your deployment from single instance to load balanced, the endpoint for your deployment will necessarily change\. In the single instance case, the endpoint refers to an Amazon EC2 instance\. In the load balanced template, the endpoint refers to the Elastic Load Balancing load balancer, a computer that distributes computing load across all EC2 instances\. Therefore, if you are using a CNAME record to associate a domain name with your deployment, you should update the CNAME record so that it points to the load balancer of the load balanced template\.
 
-The deployment tool implements the `updateStack` feature by calling the AWS CloudFormation[UpdateStack](https://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/UpdateStack.html) API\. For more information about AWS CloudFormation, go to the [AWS CloudFormation User Guide](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/)\.
+The deployment tool implements the `updateStack` feature by calling the AWS CloudFormation [UpdateStack](https://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/UpdateStack.html) API\. For more information about AWS CloudFormation, go to the [AWS CloudFormation User Guide](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/)\.
 
 **Topics**

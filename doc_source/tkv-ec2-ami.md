@@ -66,7 +66,7 @@ Choose the type of the EC2 instance to launch\. You can find a list of instance 
 Type a name for your instance\. This name cannot be more than 256 characters\.  
 ** *Key Pair* **  
 A key pair is used to obtain the Windows password that you use to log in to the EC2 instance using Remote Desktop Protocol \(RDP\)\. Choose a key pair for which you have access to the private key, or choose the option to create a key pair\. If you create the key pair in the Toolkit, the Toolkit can store the private key for you\.  
-Key pairs stored in the AWSToolKit are encrypted\. you can find them at `%LOCALAPPDATA%\AWSToolkit\keypairs` \(typically: `C:\Users\<user>\AppData\Local\AWSToolkit\keypairs`\)\. You can export the encrypted key pair into a `.pem` file\.  
+Key pairs stored in the Toolkit are encrypted\. you can find them at `%LOCALAPPDATA%\AWSToolkit\keypairs` \(typically: `C:\Users\<user>\AppData\Local\AWSToolkit\keypairs`\)\. You can export the encrypted key pair into a `.pem` file\.  
 
    1. In Visual Studio, select **View** and click **AWS Explorer**\.
 

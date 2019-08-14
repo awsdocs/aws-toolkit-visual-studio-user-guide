@@ -104,6 +104,6 @@ Additionally, the manifest can declare Windows PowerShell scripts to run before 
 }
 ```
 
-## What about ebextensions?<a name="tkv-deploy-beanstalk-custom-netcore-ebextensions"></a>
+## What about \.ebextensions?<a name="tkv-deploy-beanstalk-custom-netcore-ebextensions"></a>
 
-The Elastic Beanstalk**ebextensions** configuration files are supported as with all the other Elastic Beanstalk containers\. To include ebextensions in an ASP\.NET Core application, add the `.ebextensions` directory to the `include` section under `publishOptions` in the `project.json` file\. For further information about ebextensions checkout the [Elastic Beanstalk Developer Guide](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/ebextensions.html)\.
+The Elastic Beanstalk **\.ebextensions** configuration files are supported as with all the other Elastic Beanstalk containers\. To include \.ebextensions in an ASP\.NET Core application, add the `.ebextensions` directory to the `include` section under `publishOptions` in the `project.json` file\. For further information about \.ebextensions checkout the [Elastic Beanstalk Developer Guide](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/ebextensions.html)\.

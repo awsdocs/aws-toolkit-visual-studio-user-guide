@@ -31,7 +31,7 @@ For prerequisites and information about setting up the AWS Toolkit for Visual St
 
 1. **For Visual Studio 2017**:
 
-   Enter "Blogger" for the **Name**, enter the desired **Location**, etc\.,and then click **OK**\.
+   Enter "Blogger" for the **Name**, enter the desired **Location**, etc\., and then click **OK**\.
 
    **For Visual Studio 2019**:
 

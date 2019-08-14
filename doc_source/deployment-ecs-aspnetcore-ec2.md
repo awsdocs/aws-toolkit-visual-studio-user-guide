@@ -36,7 +36,7 @@ You can also select **Publish Container to AWS** on the Visual Studio Build menu
 
  **ECS Cluster** \- Pick the cluster that will run your Docker image\. You can [create an ECS cluster](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create_cluster.html) using the AWS Management Console\.
 
- **Launch Type** \- Choose EC2\. To use the Fargate launch type, see [Deploying an ASP\.NET Core 2\.0 Application to Amazon ECS \(Fargate\)](deployment-ecs-aspnetcore-fargate)\.
+ **Launch Type** \- Choose EC2\. To use the Fargate launch type, see [Deploying an ASP\.NET Core 2\.0 Application to Amazon ECS \(Fargate\)](deployment-ecs-aspnetcore-fargate.md)\.
 
 ## Service Configuration page<a name="tkv-deploy-ecs-service"></a>
 
@@ -72,7 +72,7 @@ For more information, see [Amazon ECS Task Placement](https://docs.aws.amazon.co
 
  **Target Group** \- By default, the load balancer sends requests to registered targets using the port and protocol that you specified for the target group\. You can override this port when you register each target with the target group\.
 
- **Path Pattern** \- The load balancer will use path\-based routing\. Accept the default `/` or provide a different pattern\. The path pattern is case\-sensitive, can be up to 128 characters in length, and contains a [select set of characters](https://docs.aws.amazon.com/ElasticLoadBalancing/latest/application/load-balancer-listeners#path-conditions)\.
+ **Path Pattern** \- The load balancer will use path\-based routing\. Accept the default `/` or provide a different pattern\. The path pattern is case\-sensitive, can be up to 128 characters in length, and contains a [select set of characters](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-listeners.html#path-conditions)\.
 
  **Health Check Path** \- The ping path that is the destination on the targets for health checks\. By default, it is `/` and is appropriate for web applications\. Enter a different path if needed\. If the path you enter is invalid, the health check will fail and it will be considered unhealthy\.
 
@@ -90,7 +90,7 @@ The *soft limit* \(in MiB\) of memory to reserve for the container\. Docker atte
 
 The *hard limit* \(in MiB\) of memory to present to the container\. If your container attempts to exceed the memory specified here, the container is killed\.
 
- **Task Role** \- Select a task role for an IAM role that allows the container permission to call the AWS APIs that are specified in its associated policies on your behalf\. This is how credentials are passed in to your application\. See [how to specify AWS security credentials for your application](deployment-ecs-specify-credentials)\.
+ **Task Role** \- Select a task role for an IAM role that allows the container permission to call the AWS APIs that are specified in its associated policies on your behalf\. This is how credentials are passed in to your application\. See [how to specify AWS security credentials for your application](deployment-ecs-specify-credentials.md)\.
 
  **Port Mapping** \- Add, modify or delete port mappings for the container\. If a load balancer is on, the host port will be default to 0 and port assignment will be dynamic\.
 

@@ -4,13 +4,13 @@ AWS Explorer provides detailed views of Amazon Elastic Container Service \(Amazo
 
 ## Modifying service properties<a name="tkv-ecs-clusters-service-props"></a>
 
-You can vew service details, service events and service properties from the cluster view\.
+You can view service details, service events and service properties from the cluster view\.
 
 1. In AWS Explorer, open the context \(right\-click\) menu for the cluster to manage, and then choose **View**\.
 
 1. In the ECS Cluster view, click **Services** on the left, and then click the **Details** tab in the details view\. You can click **Events** to see event messages and **Deployments** to deployment status\.
 
-1. Click **Edit**\. You can change the desired task count and the minimum and maximum helathy percent\.
+1. Click **Edit**\. You can change the desired task count and the minimum and maximum healthy percent\.
 
 1. Click **Save** to accept changes or **Cancel** to revert to existing values\.
 

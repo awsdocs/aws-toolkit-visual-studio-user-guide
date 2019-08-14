@@ -24,7 +24,7 @@ The next page, **AWS Options**, allows you to configure the type of AWS resource
 
 ## Permissions<a name="tkv-deploy-using-wizard-netcore-permissions"></a>
 
-The **Permissions** page is used for assigning AWS credentials to the EC2 instance\(s\) running your application\. This is important if your application uses the AWS SDK for \.NET to access other AWS services\. If you are not using any other services from your application then you can leave this page at its default\.
+The **Permissions** page is used for assigning AWS credentials to the EC2 instances running your application\. This is important if your application uses the AWS SDK for \.NET to access other AWS services\. If you are not using any other services from your application then you can leave this page at its default\.
 
 ## Application Options<a name="tkv-deploy-using-wizard-netcore-app-options"></a>
 
@@ -36,7 +36,7 @@ After completing the **Application Options** page, click **Next** to review the 
 
 After the application is packaged and uploaded to AWS, you can check the status of the Elastic Beanstalk environment by opening the environment status view from the AWS Explorer in Visual Studio\.
 
-Events are displayed in the status bar as the environment is coming online\. Once everything is complete, the environment status will move to healthy state\. You can click on the URL to view the site\. From here, you can also pull the logs from the environment, or remote desktop into the Amazon EC2 instance\(s\) that are part of your Elastic Beanstalk environment\.
+Events are displayed in the status bar as the environment is coming online\. Once everything is complete, the environment status will move to healthy state\. You can click on the URL to view the site\. From here, you can also pull the logs from the environment or remote desktop into the Amazon EC2 instances that are part of your Elastic Beanstalk environment\.
 
 The first deployment of any application will take a bit longer than subsequent re\-deployments, as it creates new AWS resources\. As you iterate on your application during development, you can quickly re\-deploy by going back through the wizard, or selecting the **Republish** option when you right click the project\.
 

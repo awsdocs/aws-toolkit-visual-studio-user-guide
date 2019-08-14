@@ -39,7 +39,7 @@ You can also select **Publish Container to AWS** on the Visual Studio Build menu
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/wiz-ecspub-fargate-step2.png)
 
- **ECS Cluster** \- Pick the cluser that will run your Docker image\. If you choose to create an empty cluster, provide a name for your new cluster\.
+ **ECS Cluster** \- Pick the cluster that will run your Docker image\. If you choose to create an empty cluster, provide a name for your new cluster\.
 
  **Launch Type** \- Choose **FARGATE**\.
 
@@ -95,7 +95,7 @@ If you deploy multiple services, and each service will be deployed to a differen
 
  **Container** \- Select an existing container or choose **Create New** and type in the new container name\.
 
- **Task Role** \- Select an IAM role that has the credentials your app needs to access AWS Services\. This is how credentials are passed in to your application\. See [how to specify AWS security credentials for your application](deployment-ecs-specify-credentials)\.
+ **Task Role** \- Select an IAM role that has the credentials your app needs to access AWS Services\. This is how credentials are passed in to your application\. See [how to specify AWS security credentials for your application](deployment-ecs-specify-credentials.md)\.
 
  **Task Execution Role** \- Select a role with permissions to pull private images and publish logs\. AWS Fargate will use it on your behalf\.
 

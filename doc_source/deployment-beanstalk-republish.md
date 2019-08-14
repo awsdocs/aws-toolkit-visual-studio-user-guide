@@ -13,6 +13,6 @@ You can iterate on your application by making discrete changes and then republis
    The **Review** wizard appears\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/tkv-aeb-wizard-app-review.png)
 
-1. Click **Deploy**\. The application will redploy to the same environment\.
+1. Click **Deploy**\. The application will redeploy to the same environment\.
 
 You cannot republish if your application is in the process of launching or terminating\.

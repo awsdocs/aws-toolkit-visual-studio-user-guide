@@ -28,7 +28,7 @@ For information about how to configure IAM users from the AWS Management Console
 
 1. In AWS Explorer, expand the **AWS Identity and Access Management** node, open the context \(right\-click\) menu for **Users** and then choose **Create User**\.
 
-1. In the **Create User** dialog box, type a name for the IAM user and choose **OK**\. This is the IAM[friendly name](https://docs.aws.amazon.com/IAM/latest/UserGuide/Using_Identifiers.html)\. For information about constraints on names for IAM users, go to the [IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html)\.  
+1. In the **Create User** dialog box, type a name for the IAM user and choose **OK**\. This is the IAM [friendly name](https://docs.aws.amazon.com/IAM/latest/UserGuide/Using_Identifiers.html)\. For information about constraints on names for IAM users, go to the [IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/iam-user-create-dlg.png)
 
 The new user will appear as a subnode under **Users** under the **AWS Identity and Access Management** node\.
@@ -124,7 +124,7 @@ For information about how to create a policy and attach it to the role, see [Cre
 
 ## Create an IAM Policy<a name="tkv-create-an-iam-policy"></a>
 
-Policies are fundamental to IAM\. Policies can be associated with IAM*entities* such users, groups, or roles\. Policies specify the level of access enabled for a user, group, or role\.
+Policies are fundamental to IAM\. Policies can be associated with IAM *entities* such as users, groups, or roles\. Policies specify the level of access enabled for a user, group, or role\.
 
  *To create an IAM policy* 
 
