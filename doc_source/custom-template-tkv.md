@@ -20,7 +20,7 @@ Templates are available only for the regions listed below\.
 ****    
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/custom-template-tkv.html)
 
-   EU \(Ireland\)  
+   Europe \(Ireland\)  
 ****    
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/custom-template-tkv.html)
 

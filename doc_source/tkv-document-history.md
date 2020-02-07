@@ -8,6 +8,7 @@ The following table describes the important recent changes of the AWS Toolkit fo
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Security Content](security.md) | Added security content\. | February 6, 2020 | 
 | [Providing AWS Credentials](credentials.md) | Updated with information about creating credential profiles in the shared AWS credentials file\. | June 20, 2019 | 
 | [Tutorial: Using the AWS Lambda Project in the AWS Toolkit for Visual Studio](lambda-creating-project-in-visual-studio.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
 | [Tutorial: Creating an Amazon Rekognition Lambda Application](lambda-rekognition-example.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 

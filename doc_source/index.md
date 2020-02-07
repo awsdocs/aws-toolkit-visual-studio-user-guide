@@ -1,7 +1,7 @@
 # AWS Toolkit for Visual Studio User Guide
 
 -----
-*****Copyright &copy; 2019 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy; 2020 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -64,4 +64,11 @@ Amazon's trademarks and trade dress may not be used in
       + [Tutorial: Creating an Amazon Rekognition Lambda Application](lambda-rekognition-example.md)
       + [Tutorial: Using Amazon Logging Frameworks with AWS Lambda to Create Application Logs](cw-log-frameworks.md)
    + [Deploying an AWS Lambda Project with the .NET Core CLI](lambda-cli-publish.md)
++ [Security for this AWS Product or Service](security.md)
+   + [Data Protection in this AWS Product or Service](data-protection.md)
+   + [Identity and Access Management for this AWS Product or Service](security-iam.md)
+   + [Compliance Validation for this AWS Product or Service](compliance-validation.md)
+   + [Resilience for this AWS Product or Service](disaster-recovery-resiliency.md)
+   + [Infrastructure Security for this AWS Product or Service](infrastructure-security.md)
+   + [Configuration and Vulnerability Analysis in this AWS Product or Service](configuration-and-vulnerability-analysis.md)
 + [Document History of the AWS Toolkit for Visual Studio User Guide](tkv-document-history.md)

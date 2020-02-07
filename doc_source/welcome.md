@@ -54,3 +54,9 @@ You can use the Toolkit for Visual Studio to edit AWS CloudFormation JSON\-forma
 ### AWS Identity and Access Management \(IAM\)<a name="iamlong-iam"></a>
 
 From AWS Explorer, you can create IAM users, roles, and policies, and attach policies to users\.
+
+## Related Information<a name="related-info"></a>
+
+To open an issues or view currently open issues, visit [https://github\.com/aws/aws\-toolkit\-visual\-studio/issues]( https://github.com/aws/aws-toolkit-visual-studio/issues)\.
+
+To learn more about Visual Studio, visit [https://visualstudio\.microsoft\.com/vs/](https://visualstudio.microsoft.com/vs/)\.

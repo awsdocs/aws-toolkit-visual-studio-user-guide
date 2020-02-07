@@ -8,6 +8,7 @@ For prerequisites and information about setting up the AWS Toolkit for Visual St
 + [Create a New AWS Serverless Application Project](#create-a-new-aws-serverless-application-project)
 + [Examine the Files in the Serverless Application](#examine-the-files-in-the-serverless-application)
 + [Deploy the Serverless Application](#deploy-the-serverless-application)
++ [Test the Serverless Application](#test-the-serverless-application)
 
 ## Create a New AWS Serverless Application Project<a name="create-a-new-aws-serverless-application-project"></a>
 
@@ -167,6 +168,8 @@ Because the serverless template has parameters, an additional page is displayed 
 Once the publish step is complete, the CloudFormation stack view is displayed in AWS Explorer\. This view shows the progress of the creation of all the resources declared in your serverless template\.
 
 ![\[CloudFormation stack view\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/serverless-stack-view.png)
+
+## Test the Serverless Application<a name="test-the-serverless-application"></a>
 
 When the stack creation is complete, the root URL for the API Gateway is displayed on the page\. If you click that link, it returns an empty JSON array because you haven't added any blogs to the table\. To get blogs in the table, you need to make an HTTP PUT method to this URL, passing in a JSON document that represents the blog\. You can do that in code or in any number of tools\. This example uses the Postman tool, which is a Chrome browser extension, but you can use any tool you like\. In this tool, you set the URL and change the method to PUT\. In the **Body** tab, you put in some sample content\. When you make the HTTP call, you can see the blog ID is returned\.
 

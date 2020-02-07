@@ -2,7 +2,7 @@
 
 You can use Amazon CloudWatch Logs to monitor, store, and access your application’s logs\. To get log data into CloudWatch Logs, you can use an AWS SDK or install the CloudWatch Logs agent to monitor certain log folders\. Today, we’ve made it even easier to use CloudWatch Logs with \.NET applications by integrating CloudWatch Logs with several popular \.NET logging frameworks\.
 
-The supported \.NET logging frameworks are [NLog](https://www.nuget.org/packages/AWS.Logger.NLog//), [Log4net](https://www.nuget.org/packages/AWS.Logger.Log4net/), and the new built\-in [ASP\.NET Core logging Framework](https://www.nuget.org/packages/AWS.Logger.AspNetCore/)\. For each framework, all you need to do is add the appropriate NuGet package, add CloudWatch Logs as an output source, and then use your logging library as you normally would\.
+The supported \.NET logging frameworks are [NLog](https://www.nuget.org/packages/AWS.Logger.NLog), [Log4net](https://www.nuget.org/packages/AWS.Logger.Log4net/), and the new built\-in [ASP\.NET Core logging Framework](https://www.nuget.org/packages/AWS.Logger.AspNetCore/)\. For each framework, all you need to do is add the appropriate NuGet package, add CloudWatch Logs as an output source, and then use your logging library as you normally would\.
 
 For example to use CloudWatch Logs with a \.NET application using NLog, add the `AWS.Logger.NLog` NuGet package, and then add the AWS target into your `NLog.config` file\. Here is an example of an `NLog.config` file that enables both CloudWatch Logs and the console as output for the log messages\.
 

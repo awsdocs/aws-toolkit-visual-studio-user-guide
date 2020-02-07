@@ -12,7 +12,7 @@ With the Toolkit for Visual Studio, you can easily estimate the cost of the AWS 
 1. Provide values for parameters you have defined for your stack, and choose **Finish**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/vs-editor-cfn-estimate-cost-2.png)
 
-1. The [AWS Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html) will be displayed\. The values for the form data will be filled in with information pulled from the template you're editing\. You can adjust the values, if needed\.
+1. The AWS Simple Monthly Calculator  will be displayed\. The values for the form data will be filled in with information pulled from the template you're editing\. You can adjust the values, if needed\.
 
    The **Estimate of Your Monthly Bill** tab will display an itemized view of the estimated monthly costs of running your stack\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/vs-editor-simple-monthly-calc.png)

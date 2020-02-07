@@ -23,6 +23,8 @@ The Toolkit for Visual Studio is still available if you're using Visual Studio v
 
 The Toolkit for Visual Studio for Visual Studio 2017 and Visual Studio 2019 is distributed in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017)\. You can also install and update the toolkit within Visual Studio by using **Tools** ≫ **Extensions and Updates** \(Visual Studio 2017\) or **Extensions** ≫ **Manage Extensions** \(Visual Studio 2019\)\.
 
+After the toolkit has been installed, open it by choosing **AWS Explorer** from the **View** menu\.
+
 ------
 #### [ Install for Visual Studio 2013 and Visual Studio 2015 ]
 
@@ -34,10 +36,10 @@ The Toolkit for Visual Studio for Visual Studio 2013 and Visual Studio 2015 are 
 
 1. To start the installation, run the downloaded installer and follow the instructions\.
 
-------
-
 **Note**  
 By default, the Toolkit for Visual Studio is installed in the Program Files directory, which requires administrator privileges\. To install the Toolkit for Visual Studio as a non\-administrator, specify a different installation directory\.
+
+------
 
 ## Uninstall the Toolkit for Visual Studio<a name="uninstall"></a>
 
