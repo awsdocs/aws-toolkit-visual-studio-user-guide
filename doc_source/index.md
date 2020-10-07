@@ -34,6 +34,7 @@ Amazon's trademarks and trade dress may not be used in
          + [How to Republish Your Application to an Elastic Beanstalk Environment](deployment-beanstalk-republish.md)
          + [Custom Elastic Beanstalk Application Deployments](deployment-beanstalk-custom.md)
          + [Custom ASP.NET Core Elastic Beanstalk Deployments](deployment-beanstalk-custom-netcore.md)
+         + [Custom Deployments Manifest Schema](deployment-beanstalk-manifest-schema.md)
          + [Multiple Application Support for .NET and Elastic Beanstalk](deployment-beanstalk-multiple-application.md)
          + [Deploying to Elastic Beanstalk (Legacy)](deployment-beanstalk-legacy.md)
          + [Deploying to AWS CloudFormation (Legacy)](deployment-cloudform.md)
