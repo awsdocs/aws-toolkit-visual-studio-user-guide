@@ -103,6 +103,9 @@ Additionally, the manifest can declare Windows PowerShell scripts to run before 
   }
 }
 ```
+## Windows Deployment Manifest Schema
+
+You can view the schema for the deployment manifest [here](deployment-beanstalk-manifest-schema.md)\.
 
 ## What about \.ebextensions?<a name="tkv-deploy-beanstalk-custom-netcore-ebextensions"></a>
 
