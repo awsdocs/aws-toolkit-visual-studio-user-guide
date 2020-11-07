@@ -1,6 +1,6 @@
 # Deploying an ASP\.NET Core 2\.0 App to Amazon ECS \(EC2\)<a name="deployment-ecs-aspnetcore-ec2"></a>
 
-This section describes how to use the **Publish Container to AWS** wizard, provided as part of the Toolkit for Visual Studio, to deploy a containerized ASP\.NET Core 2\.0 application targeting Linux through Amazon ECS using the EC2 launch type\. Because a web application is meant run continuously, it will deployed as a service\.
+This section describes how to use the **Publish Container to AWS** wizard, provided as part of the Toolkit for Visual Studio, to deploy a containerized ASP\.NET Core 2\.0 application targeting Linux through Amazon ECS using the EC2 launch type\. Because a web application is meant run continuously, it will be deployed as a service\.
 
 ## Before you publish your container<a name="tkv-deploy-ecs-netcore-prerequisites"></a>
 
