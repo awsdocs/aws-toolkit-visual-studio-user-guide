@@ -67,3 +67,7 @@ Remove-Item -Recurse -Force 'c:\inetpub\wwwroot\documentation'
 With these script files and the documentation\.zip file included in your application bundle, the deployment creates the ASP\.NET application and then deploys the documentation site\.
 
 For this example, we choose a simple example that deploys a simple static website, but with custom application deployment you can deploy any type of application and let Elastic Beanstalk manage the AWS resources for it\.
+
+## Windows Deployment Manifest Schema
+
+You can view the schema for the deployment manifest [here](deployment-beanstalk-manifest-schema.md)\.

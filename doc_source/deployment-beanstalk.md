@@ -16,6 +16,7 @@ For more information about Elastic Beanstalk, go to the [Elastic Beanstalk docum
 + [Republish to Elastic Beanstalk](deployment-beanstalk-republish.md)
 + [Custom Deployments \(Traditional\)](deployment-beanstalk-custom.md)
 + [Custom Deployments \(\.NET Core\)](deployment-beanstalk-custom-netcore.md)
++ [Custom Deployments Manifest Schema](deployment-beanstalk-manifest-schema.md)
 + [Multiple Application Support](deployment-beanstalk-multiple-application.md)
 + [Deploying to Elastic Beanstalk \(Legacy\)](deployment-beanstalk-legacy.md)
 + [Deploying to AWS CloudFormation \(Legacy\)](deployment-cloudform.md)
