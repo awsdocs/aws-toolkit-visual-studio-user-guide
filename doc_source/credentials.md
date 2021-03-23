@@ -72,7 +72,7 @@ aws_access_key_id = YOUR_ACCESS_KEY_ID
 aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
 ```
 
-You can use a role by creating a profile for the role\. The following example shows a role profile named `assumed-role` that is assumed by the default profile\.
+You can use a role by creating a profile for the role\. The following example shows a role profile named `assume-role-test` that is assumed by the default profile\.
 
 ```
 [assume-role-test]
