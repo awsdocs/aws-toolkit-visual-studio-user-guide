@@ -1,16 +1,18 @@
-# Document History of the AWS Toolkit for Visual Studio User Guide<a name="tkv-document-history"></a>
+# Document history of the AWS Toolkit for Visual Studio User Guide<a name="tkv-document-history"></a>
 
- *Last documentation update:* March 28, 2019
+ *Last documentation update:* April 21, 2021
 
-## Document History<a name="doc-history-recent"></a>
+## Document history<a name="doc-history-recent"></a>
 
 The following table describes the important recent changes of the AWS Toolkit for Visual Studio User Guide\. For notification about updates to this documentation, you can subscribe to an [RSS feed](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/amazon-toolkit-for-visual-studio-guide-doc-history.rss)\.
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [SSO and MFA support for AWS credentials](credentials.md) | Updated to document new support for AWS Single Sign\-On \(AWS SSO\) and multi\-factor authentication in AWS credentials\. | April 21, 2021 | 
+| [Basic AWS Lambda Project Creating Docker Image](lambda-creating-project-docker-image.md) | Added support for Lambda container images\. | December 1, 2020 | 
 | [Security Content](security.md) | Added security content\. | February 6, 2020 | 
-| [Providing AWS Credentials](credentials.md) | Updated with information about creating credential profiles in the shared AWS credentials file\. | June 20, 2019 | 
-| [Tutorial: Using the AWS Lambda Project in the AWS Toolkit for Visual Studio](lambda-creating-project-in-visual-studio.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
+| [Providing AWS credentials](credentials.md) | Updated with information about creating credential profiles in the shared AWS credentials file\. | June 20, 2019 | 
+| [Using the AWS Lambda Project in the AWS Toolkit for Visual Studio](lambda-creating-project-in-visual-studio.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
 | [Tutorial: Creating an Amazon Rekognition Lambda Application](lambda-rekognition-example.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
 | [Tutorial: Build and Test a Serverless Application with AWS Lambda](lambda-build-test-severless-app.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
 | [Setting Up the AWS Toolkit for Visual Studio](setup.md) | Support for Visual Studio 2019 was added to the AWS Toolkit for Visual Studio\. | March 28, 2019 | 
@@ -23,7 +25,7 @@ The following table describes the important recent changes of the AWS Toolkit fo
 | [Deploying Container Service using EC2](deployment-ecs-aspnetcore-ec2.md) | Added information about how to deploy a containerized ASP\.NET Core 2\.0 application targeting Linux through Amazon ECS using the EC2 launch type\. | February 16, 2018 | 
 | [Credentials for Deploying to Amazon EC2 Container Service](deployment-ecs-specify-credentials.md) | Added information about how to specify credentials when deploying to Amazon EC2 container service\. | February 16, 2018 | 
 
-## Earlier Updates<a name="doc-history-earlier"></a>
+## Earlier updates<a name="doc-history-earlier"></a>
 
 The following table describes the important earlier changes of the AWS Toolkit for Visual Studio User Guide\.
 

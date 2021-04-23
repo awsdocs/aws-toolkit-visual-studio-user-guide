@@ -16,6 +16,7 @@ It assumes that you've already installed the AWS Toolkit for Visual Studio on yo
 + [Using Amazon S3 from AWS Explorer](tkv-s3.md)
 + [Using DynamoDB from AWS Explorer](dynamodb-tkv.md)
 + [Using AWS CodeCommit with Visual Studio Team Explorer](using-aws-codecommit-with-team-explorer.md)
++ [Using CodeArtifact in Visual Studio](using-aws-codeartifact.md)
 + [Amazon RDS from AWS Explorer](rds-tkv.md)
 + [Using Amazon SimpleDB from AWS Explorer](tkv-simpleDB.md)
 + [Using Amazon SQS from AWS Explorer](tkv-sqs.md)

@@ -10,12 +10,12 @@ For more information, see the following:
  **Prerequisites** 
 
 To do the following tutorials, you must first:
-+ Install Visual Studio 2015 Update 3, Visual Studio 2017, or Visual Studio 2019\.
-+ If using Visual Studio 2015 Update 3, install [\.NET Core for Windows](https://www.microsoft.com/net/download/core)\.
++ Install Visual Studio 2017, or Visual Studio 2019\.
 + Install the [AWS Toolkit for Visual Studio](https://aws.amazon.com/visualstudio/) and specify your credentials\. See [Setting Up the AWS Toolkit for Visual Studio](getting-set-up.md)\.
 
 **Topics**
-+ [Tutorial: Using the AWS Lambda Project in the AWS Toolkit for Visual Studio](lambda-creating-project-in-visual-studio.md)
++ [Basic AWS Lambda Project](lambda-creating-project-in-visual-studio.md)
++ [Basic AWS Lambda Project Creating Docker Image](lambda-creating-project-docker-image.md)
 + [Tutorial: Build and Test a Serverless Application with AWS Lambda](lambda-build-test-severless-app.md)
 + [Tutorial: Creating an Amazon Rekognition Lambda Application](lambda-rekognition-example.md)
 + [Tutorial: Using Amazon Logging Frameworks with AWS Lambda to Create Application Logs](cw-log-frameworks.md)

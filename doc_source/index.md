@@ -1,7 +1,7 @@
 # AWS Toolkit for Visual Studio User Guide
 
 -----
-*****Copyright &copy; 2020 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy;  Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -16,8 +16,12 @@ Amazon's trademarks and trade dress may not be used in
 ## Contents
 + [AWS Toolkit for Visual Studio](welcome.md)
 + [Setting Up the AWS Toolkit for Visual Studio](getting-set-up.md)
-   + [Setting Up the AWS Toolkit for Visual Studio](setup.md)
-   + [Providing AWS Credentials](credentials.md)
+   + [Setting up the AWS Toolkit for Visual Studio](setup.md)
+   + [Providing AWS credentials](credentials.md)
+      + [Creating profiles for your AWS credentials](keys-profiles-credentials.md)
+      + [Using AWS SSO credentials in AWS Toolkit for Visual Studio](sso-credentials.md)
+      + [Using multi-factor authentication (MFA) in Toolkit for Visual Studio](mfa-credentials.md)
+      + [Using external credentials](external-credentials.md)
    + [Using the Toolkit for Visual Studio](basic-use.md)
 + [Working with AWS Services](working-with-services.md)
    + [Managing Amazon EC2 Instances](tkv-ec2-ami.md)
@@ -51,6 +55,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Using Amazon S3 from AWS Explorer](tkv-s3.md)
    + [Using DynamoDB from AWS Explorer](dynamodb-tkv.md)
    + [Using AWS CodeCommit with Visual Studio Team Explorer](using-aws-codecommit-with-team-explorer.md)
+   + [Using CodeArtifact in Visual Studio](using-aws-codeartifact.md)
    + [Amazon RDS from AWS Explorer](rds-tkv.md)
       + [Launch an Amazon RDS Database Instance](rds-launch-instance.md)
       + [Create a Microsoft SQL Server Database in an RDS Instance](rds-launch-instance-sql.md)
@@ -59,7 +64,8 @@ Amazon's trademarks and trade dress may not be used in
    + [Using Amazon SQS from AWS Explorer](tkv-sqs.md)
    + [Identity and Access Management](tkv-iam.md)
    + [Using the AWS Lambda Templates in the AWS Toolkit for Visual Studio](lambda-index.md)
-      + [Tutorial: Using the AWS Lambda Project in the AWS Toolkit for Visual Studio](lambda-creating-project-in-visual-studio.md)
+      + [Basic AWS Lambda Project](lambda-creating-project-in-visual-studio.md)
+      + [Basic AWS Lambda Project Creating Docker Image](lambda-creating-project-docker-image.md)
       + [Tutorial: Build and Test a Serverless Application with AWS Lambda](lambda-build-test-severless-app.md)
       + [Tutorial: Creating an Amazon Rekognition Lambda Application](lambda-rekognition-example.md)
       + [Tutorial: Using Amazon Logging Frameworks with AWS Lambda to Create Application Logs](cw-log-frameworks.md)
@@ -71,4 +77,4 @@ Amazon's trademarks and trade dress may not be used in
    + [Resilience for this AWS Product or Service](disaster-recovery-resiliency.md)
    + [Infrastructure Security for this AWS Product or Service](infrastructure-security.md)
    + [Configuration and Vulnerability Analysis in AWS Toolkit for Visual Studio](configuration-and-vulnerability-analysis.md)
-+ [Document History of the AWS Toolkit for Visual Studio User Guide](tkv-document-history.md)
++ [Document history of the AWS Toolkit for Visual Studio User Guide](tkv-document-history.md)

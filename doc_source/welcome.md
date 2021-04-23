@@ -4,10 +4,10 @@ This is the user guide for the **AWS Toolkit for Visual Studio**\. If you are lo
 
 ## What is the Toolkit for Visual Studio<a name="welcome-about-tkv"></a>
 
-The AWS Toolkit for Visual Studio is a plugin for the Visual Studio IDE that makes it easier for you to develop, debug, and deploy \.NET applications that use Amazon Web Services\. The Toolkit for Visual Studio is supported for Visual Studio versions 2013 and later\. For details about how to download and install the kit, see [Install the Toolkit for Visual Studio](setup.md#install)\.
+The AWS Toolkit for Visual Studio is a plugin for the Visual Studio IDE that makes it easier for you to develop, debug, and deploy \.NET applications that use Amazon Web Services\. The Toolkit for Visual Studio is supported for Visual Studio versions 2017 and later\. For details about how to download and install the kit, see [Install the Toolkit for Visual Studio](setup.md#install)\.
 
 **Note**  
-The Toolkit for Visual Studio is also available for Visual Studio 2008, 2010, and 2012 versions\. However, those versions are not supported\. For more information, see [Install the Toolkit for Visual Studio](setup.md#install)\.
+The Toolkit for Visual Studio was also released for Visual Studio 2008, 2010, 2012, 2013, and 2015 versions\. However, those versions are no longer supported\. For more information, see [Install the Toolkit for Visual Studio](setup.md#install)\.
 
 The Toolkit for Visual Studio contains the following features to enhance your development experience\.
 
