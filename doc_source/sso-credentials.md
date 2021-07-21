@@ -13,7 +13,7 @@ The following procedure outlines how to add an AWS SSO profile to your `credenti
 
 **Adding an AWS SSO profile to your credentials file in AWS Toolkit for Visual Studio**
 
-1. Use your preferred text editor to open the AWS credentials information stored in the `<hone-directory>\.aws\credentials` file\.
+1. Use your preferred text editor to open the AWS credentials information stored in the `<home-directory>\.aws\credentials` file\.
 
 1. In either the `credentials` or `config` file, under `[default]`, add a template for a named AWS SSO profile\. An example profile:
 
