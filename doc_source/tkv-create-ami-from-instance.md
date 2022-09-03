@@ -9,7 +9,7 @@ From the **Amazon EC2 Instances** view, you can create Amazon Machine Images \(A
 
     **Create Image** context menu
 
-1. In the **Create Image** dialog box, type a unique name and description, and then choose **Create Image**\. By default, Amazon EC2 shuts down the instance, takes snapshots of any attached volumes, creates and registers the AMI, and then reboots the instance\. Choose **No reboot**if you don't want your instance to be shut down\.
+1. In the **Create Image** dialog box, type a unique name and description, and then choose **Create Image**\. By default, Amazon EC2 shuts down the instance, takes snapshots of any attached volumes, creates and registers the AMI, and then reboots the instance\. Choose **No reboot** if you don't want your instance to be shut down\.
 **Warning**  
 If you choose **No reboot**, we can't guarantee the file system integrity of the created image\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/images/tkv-ec2-create-ami-dlg2.png)
