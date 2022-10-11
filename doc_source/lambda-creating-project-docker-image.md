@@ -57,7 +57,7 @@ WORKDIR /var/task
 COPY "bin/Release/net5.0/linux-x64/publish"  .
 ```
 
-To further customize your Dockerfile, you could also utlize:
+To further customize your Dockerfile, you could also utilize:
 + `ENTRYPOINT`: The base image already includes an `ENTRYPOINT`, which is the startup process executed when the image is started\. If you wish to specify your own, then you are overriding that base entry point\. 
 +  `CMD`: `CMD` instructs AWS which custom code you want executed\. It expects a fully\-qualified name to your custom method\. This line either needs to be included directly in the Dockerfile or can be specified during the publish process\. 
 
